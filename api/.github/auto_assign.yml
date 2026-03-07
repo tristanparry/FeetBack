@@ -1,0 +1,12 @@
+addReviewers: true
+
+reviewers: 
+  - steven-arm
+  - ldelvoye
+  - jalenliew
+  - Staisha-N
+  - tristanparry
+
+numberOfReviewers: 1
+
+addAssignees: author

@@ -1,0 +1,197 @@
+{
+  "common": {
+    "title": "FeetBack",
+    "temperature": {
+      "celsius": {
+        "name": "Celsius",
+        "symbol": "°C"
+      },
+      "fahrenheit": {
+        "name": "Fahrenheit",
+        "symbol": "°F"
+      }
+    },
+    "ok": "OK",
+    "cancel": "Annuler",
+    "no": "Non",
+    "yes": "Oui",
+    "back": "Retour",
+    "noItems": "Aucun élément à afficher",
+    "leftInsole": "Semelle gauche",
+    "rightInsole": "Semelle droite"
+  },
+  "login": {
+    "title": "Se connecter",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Mot de passe",
+    "noAccount": "Vous n'avez pas de compte?",
+    "registerButton": "Registre",
+    "loginButton": "Se connecter",
+    "validation": {
+      "emailRequired": "Un e-mail est requis.",
+      "emailValid": "S'il vous plaît, mettez une adresse email valide.",
+      "passwordRequired": "Le mot de passe est requis.",
+      "passwordTooShort": "Le mot de passe doit comporter au moins 8 caractères.",
+      "passwordTooLong": "Le mot de passe est trop long.",
+      "REQUIRED": "E-mail et mot de passe requis.",
+      "INVALID": "E-mail ou mot de passe non valide.",
+      "UNKNOWN": "Une erreur inconnue s'est produite."
+    }
+  },
+  "register": {
+    "title": "Registre",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Mot de passe",
+    "existingAccount": "Vous avez déjà un compte?",
+    "loginButton": "Se connecter",
+    "registerButton": "Registre",
+    "validation": {
+      "emailRequired": "Un e-mail est requis.",
+      "emailValid": "S'il vous plaît, mettez une adresse email valide.",
+      "passwordRequired": "Le mot de passe est requis.",
+      "passwordTooShort": "Le mot de passe doit comporter au moins 8 caractères.",
+      "passwordTooLong": "Le mot de passe est trop long.",
+      "EXISTS": "L'utilisateur déjà enregistré.",
+      "REQUIRED": "E-mail et mot de passe requis.",
+      "INVALID": "E-mail ou mot de passe non valide.",
+      "UNKNOWN": "Une erreur inconnue s'est produite."
+    }
+  },
+  "accountInfo": {
+    "title": "Informations sur le compte",
+    "functions": {
+      "language": {
+        "title": "Langue"
+      },
+      "temperature": {
+        "title": "Unité de température"
+      },
+      "userName": {
+        "title": "Nom"
+      },
+      "userPassword": {
+        "title": "Mot de passe"
+      },
+      "logOut": {
+        "title": "Déconnecter"
+      },
+      "deleteAccount": {
+        "title": "Supprimer le compte",
+        "description": "Êtes-vous sûr de vouloir supprimer votre compte?"
+      }
+    }
+  },
+  "manageInsoles": {
+    "title": "Gérer les semelles",
+    "noDevices": "Aucune semelle intérieure jumelée",
+    "connectionStatus": {
+      "continuous": "Connexion continue",
+      "intermittent": "Connexion intermittente",
+      "none": "Pas de connexion"
+    },
+    "chargeDevice": "Appareil de charge dès que possible.",
+    "L": "Le semelle intérieure gauche de {{userName}}",
+    "R": "Le semelle intérieure droit de {{userName}}",
+    "functions": {
+      "unpairInsole": {
+        "title": "Dissocier la semelle intérieure",
+        "description": "Êtes-vous sûr de vouloir dissocier {{insoleName}}?"
+      },
+      "pairInsole": {
+        "title": "Paire de semelle intérieure",
+        "description": "Pour associer une nouvelle semelle intérieure, visitez l'onglet d'accueil, cliquez sur le bouton de connexion dans le coin supérieur droit et allumez votre appareil FeetBack."
+      }
+    }
+  },
+  "home": {
+    "tabLabel": "Maison",
+    "title": "FeetBack",
+    "metrics": {
+      "title": "Métriques en direct",
+      "pressure": {
+        "name": "Pression",
+        "description": "Distribution moyenne de la pression sur les pieds, mesurée en pourcentage relatif de la capacité du capteur (%). Une valeur de pression basse indique que l'utilisateur n'est peut-être pas debout, tandis qu'une valeur de pression élevée indique que l'utilisateur effectue peut-être une activité de port de charge intense, comme courir ou sauter.\n\nLes valeurs de pression typiques varient de {{lowerPressure}} à {{upperPressure}}%."
+      },
+      "alignment": {
+        "name": "Alignement",
+        "description": "Alignement angulaire des pieds, mesuré par leur différence de degrés (°). Une valeur d'alignement de 0° indique que les pieds de l'utilisateur sont orientés exactement dans la même direction.\n\nLes valeurs d'alignement typiques vont de {{lowerAlignment}} à {{upperAlignment}}°.\n\nLes semelles gauche et droite doivent être connectées pour afficher cette valeur métrique."
+      },
+      "temperature": {
+        "name": "Température",
+        "description": "Température ambiante moyenne des pieds, mesurée en degrés {{temperatureTypeName}} ({{temperatureTypeSymbol}}).\n\nLes valeurs de température typiques varient de {{lowerTemp}} à {{upperTemp}}{{temperatureTypeSymbol}}."
+      },
+      "healthInsights": {
+        "name": "Insistance à la santé"
+      }
+    },
+    "insoles": {
+      "title": "Semelles intérieures"
+    }
+  },
+  "health": {
+    "tabLabel": "Santé",
+    "title": "Santé",
+    "overview": {
+      "title": "Aperçu",
+      "oneInsight": "Aperçu",
+      "multipleInsights": "Connaissances",
+      "notice": {
+        "description": "Toutes les informations sur la santé sont générées conformément aux données de la semelle intérieure des {{threshold}} jours.",
+        "title": "Avis"
+      }
+    },
+    "insights": {
+      "title": "Connaissances",
+      "noInsights": "Pas d'informations sur la santé"
+    },
+    "severity": {
+      "neutral": "Neutre",
+      "mild": "Bénin",
+      "severe": "Grave"
+    }
+  },
+  "history": {
+    "tabLabel": "Histoire",
+    "title": "Histoire",
+    "dateNavigator": {
+      "notice": {
+        "title": "Avis",
+        "description": "Toutes les données sont enregistrées et affichées en UTC (Temps Universel Coordonné)."
+      }
+    },
+    "data": {
+      "noData": "Aucune donnée disponible"
+    }
+  },
+  "profile": {
+    "tabLabel": "Profil",
+    "title": "Mon profil",
+    "user": {
+      "member": "Membre de FeetBack",
+      "registeredAt": "depuis"
+    },
+    "functions": {
+      "theme": {
+        "name": "Thème",
+        "light": "Lumière",
+        "dark": "Sombre",
+        "system": "Système"
+      },
+      "accountInfo": "Informations sur le compte",
+      "manageInsoles": "Gérer les semelles",
+      "logOut": "Déconnecter"
+    },
+    "greetings": {
+      "morning": "Bonjour",
+      "afternoon": "Bon après-midi",
+      "evening": "Bonne soirée"    },
+    "notification": {
+      "title": "Batterie faible",
+      "message": "{{insoleName}} a une batterie faible. Veuillez l'éteindre et la charger.",
+      "permissionTitle": "Notifications désactivées",
+      "permissionMessage": "Les notifications sont désactivées. Activez-les dans les paramètres de votre appareil.",
+      "scheduledTitle": "Notification programmée",
+      "scheduledMessage": "Une notification a été programmée."    }
+  }
+}
+

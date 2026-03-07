@@ -1,0 +1,66 @@
+{
+  "common": {
+    "foot": {
+      "L": "왼쪽",
+      "R": "오른쪽"
+    },
+    "temperature": {
+      "C": {
+        "symbol": "°C"
+      },
+      "F": {
+        "symbol": "°F"
+      }
+    }
+  },
+  "healthInsights": {
+    "lowTemperature": {
+      "name": "발 온도 낮음 ({{foot}}발)",
+      "description": "{{foot}}발이 지난 며칠 동안 지속적으로 낮은 온도 수치를 보이고 있습니다({{temp}}{{tempSymbol}}). 이는 혈액 순환 불량 또는 추위 노출을 나타낼 수 있습니다."
+    },
+    "highTemperature": {
+      "name": "발 온도 높음 ({{foot}}발)",
+      "description": "{{foot}}발이 지난 며칠 동안 지속적으로 높은 온도 수치를 보이고 있습니다({{temp}}{{tempSymbol}}). 이는 염증 또는 과열을 나타낼 수 있습니다."
+    },
+    "wideFootAngle": {
+      "name": "넓은 발 각도",
+      "description": "왼발과 오른발이 지난 며칠 동안 상당한 정렬 차이({{avgDifference}}°)를 보였습니다. 이는 넓은 발 각도 및/또는 외반족을 나타낼 수 있습니다."
+    },
+    "highArches": {
+      "name": "높은 아치 ({{foot}}발)",
+      "description": "{{foot}}발이 아치 부위에서 지속적으로 낮은 압력({{pressure}}%)을 보이며, 이는 높은 아치를 나타냅니다. 이는 적절한 신발 지지가 필요할 수 있습니다."
+    },
+    "lowArches": {
+      "name": "낮은 아치 / 평발 ({{foot}}발)",
+      "description": "{{foot}}발이 아치 부위에서 지속적으로 높은 압력({{pressure}}%)을 보이며, 이는 낮은 아치 또는 평발을 나타냅니다. 신발에 아치 지지대를 고려하세요."
+    },
+    "highOverallPressure": {
+      "name": "발 압력 높음 ({{foot}}발)",
+      "description": "{{foot}}발이 모든 센서에서 지속적으로 높은 압력({{pressure}}%)을 보이고 있습니다. 이는 강한 발 착지 또는 과도한 체중 부담을 나타낼 수 있습니다. 더 나은 쿠션이 있는 신발을 고려하세요."
+    },
+    "lowOverallPressure": {
+      "name": "발 압력 낮음 ({{foot}}발)",
+      "description": "{{foot}}발이 센서에서 지속적으로 낮은 압력({{pressure}}%)을 보이고 있습니다. 이는 활동 감소, 가벼운 발 착지, 또는 깔창을 정기적으로 착용하지 않음을 나타낼 수 있습니다."
+    },
+    "heelHeavyGait": {
+      "name": "뒤꿈치 중심 보행 ({{foot}}발)",
+      "description": "{{foot}}발이 뒤꿈치에서 지속적으로 높은 압력({{pressure}}%)을 보이고 있습니다. 이 뒤꿈치 착지 패턴은 뒤꿈치 불편함을 초래할 수 있습니다. 보행을 조정하거나 뒤꿈치 쿠션을 사용하는 것을 고려하세요."
+    },
+    "toeHeavyGait": {
+      "name": "발가락 중심 보행 ({{foot}}발)",
+      "description": "{{foot}}발이 발가락에서 지속적으로 높은 압력({{pressure}}%)을 보이고 있습니다. 이 앞발 착지 패턴은 시간이 지남에 따라 발가락 또는 발바닥 불편함을 초래할 수 있습니다."
+    },
+    "highBallPressure": {
+      "name": "발바닥 압력 높음 ({{foot}}발)",
+      "description": "{{foot}}발이 발바닥에서 지속적으로 높은 압력({{pressure}}%)을 보이고 있습니다. 이는 중족골통 또는 앞발 부위의 불편함을 초래할 수 있습니다."
+    },
+    "temperatureAsymmetry": {
+      "name": "온도 비대칭",
+      "description": "발이 상당한 온도 차이({{avgDifference}}{{tempSymbol}})를 보이고 있습니다. 이 비대칭은 혈액 순환 차이 또는 발 사이의 불균등한 열 노출을 나타낼 수 있습니다."
+    },
+    "weightDistributionImbalance": {
+      "name": "체중 분포 불균형",
+      "description": "발 사이의 체중 분포가 지속적인 불균형({{percentage}}% 차이)을 보이고 있습니다. 이는 한쪽 다리를 선호함을 나타낼 수 있으며, 자세 또는 보행 문제로 이어질 수 있습니다."
+    }
+  }
+}

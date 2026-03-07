@@ -1,0 +1,61 @@
+name: Add Jira Ticket Link to PR
+
+on:
+  pull_request:
+    types: [opened, reopened, edited]
+
+jobs:
+  update-pr-description:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Update PR description with JIRA ticket
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.JIRA_PR_UPDATE_TOKEN }}
+          script: |
+            const pr = context.payload.pull_request;
+            const branchName = pr.head.ref;
+            const prTitle = pr.title || '';
+            const description = pr.body || '';
+            const lines = description.split('\n');
+            const firstLine = lines[0].trim();
+
+            // Match pattern like ABC-123 from branch or title
+            const match = branchName.match(/([A-Z]+-\d+)/) || prTitle.match(/([A-Z]+-\d+)/);
+
+            let newFirstLine = '';
+            let shouldUpdate = false;
+
+            if (match) {
+              const ticket = match[1];
+              const jiraUrl = `https://feetback.atlassian.net/browse/${ticket}`;
+              newFirstLine = `# [${ticket}](${jiraUrl})`;
+
+              if (firstLine !== newFirstLine) {
+                lines[0] = newFirstLine;
+                shouldUpdate = true;
+              }
+            } else {
+              newFirstLine = `# NO-TKT`;
+              if (firstLine !== newFirstLine) {
+                lines.unshift(newFirstLine);
+                shouldUpdate = true;
+              }
+            }
+
+            if (!shouldUpdate) {
+              console.log("PR description already up to date. No changes made.");
+              return;
+            }
+
+            const newDescription = lines.join('\n');
+
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: pr.number,
+              body: newDescription,
+            });
+
+            console.log("Updated PR description with:", newFirstLine);

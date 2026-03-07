@@ -1,0 +1,66 @@
+{
+  "common": {
+    "foot": {
+      "L": "Links",
+      "R": "Rechts"
+    },
+    "temperature": {
+      "C": {
+        "symbol": "°C"
+      },
+      "F": {
+        "symbol": "°F"
+      }
+    }
+  },
+  "healthInsights": {
+    "lowTemperature": {
+      "name": "Niedrige Fußtemperatur ({{foot}} Fuß)",
+      "description": "Ihr {{foot}} Fuß zeigt seit einigen Tagen durchgehend niedrige Temperaturwerte ({{temp}}{{tempSymbol}}). Dies kann auf eine schlechte Durchblutung oder Kälteeinwirkung hinweisen."
+    },
+    "highTemperature": {
+      "name": "Hohe Fußtemperatur ({{foot}} Fuß)",
+      "description": "Ihr {{foot}} Fuß zeigt seit einigen Tagen durchgehend hohe Temperaturwerte ({{temp}}{{tempSymbol}}). Dies kann auf eine Entzündung oder Überhitzung hinweisen."
+    },
+    "wideFootAngle": {
+      "name": "Weiter Fußwinkel",
+      "description": "Ihre linken und rechten Füße zeigen seit einigen Tagen einen signifikanten Ausrichtungsunterschied ({{avgDifference}}°). Dies kann auf einen weiten Fußwinkel und/oder Auswärtsdrehung hinweisen."
+    },
+    "highArches": {
+      "name": "Hohes Fußgewölbe ({{foot}} Fuß)",
+      "description": "Ihr {{foot}} Fuß zeigt durchgehend niedrigen Druck im Gewölbebereich ({{pressure}}%), was auf ein hohes Fußgewölbe hinweist. Dies kann eine angemessene Schuhunterstützung erfordern."
+    },
+    "lowArches": {
+      "name": "Niedriges Fußgewölbe / Plattfüße ({{foot}} Fuß)",
+      "description": "Ihr {{foot}} Fuß zeigt durchgehend hohen Druck im Gewölbebereich ({{pressure}}%), was auf ein niedriges Fußgewölbe oder Plattfüße hinweist. Erwägen Sie Gewölbeunterstützung in Ihren Schuhen."
+    },
+    "highOverallPressure": {
+      "name": "Hoher Fußdruck ({{foot}} Fuß)",
+      "description": "Ihr {{foot}} Fuß zeigt durchgehend hohen Druck über alle Sensoren ({{pressure}}%). Dies kann auf einen starken Fußauftritt oder übermäßige Gewichtsbelastung hinweisen. Erwägen Sie Schuhe mit besserer Dämpfung."
+    },
+    "lowOverallPressure": {
+      "name": "Niedriger Fußdruck ({{foot}} Fuß)",
+      "description": "Ihr {{foot}} Fuß zeigt durchgehend niedrigen Druck über die Sensoren ({{pressure}}%). Dies kann auf reduzierte Aktivität, leichten Fußauftritt oder unregelmäßiges Tragen der Einlegesohle hinweisen."
+    },
+    "heelHeavyGait": {
+      "name": "Fersenlastiger Gang ({{foot}} Fuß)",
+      "description": "Ihr {{foot}} Fuß zeigt durchgehend hohen Druck auf der Ferse ({{pressure}}%). Dieses Fersenauftritts-Muster kann zu Fersenbeschwerden führen. Erwägen Sie, Ihren Gang anzupassen oder Fersendämpfung zu verwenden."
+    },
+    "toeHeavyGait": {
+      "name": "Zehenlastiger Gang ({{foot}} Fuß)",
+      "description": "Ihr {{foot}} Fuß zeigt durchgehend hohen Druck auf den Zehen ({{pressure}}%). Dieses Vorfußauftritts-Muster kann im Laufe der Zeit zu Zehen- oder Ballenbeschwerden führen."
+    },
+    "highBallPressure": {
+      "name": "Hoher Druck auf dem Fußballen ({{foot}} Fuß)",
+      "description": "Ihr {{foot}} Fuß zeigt durchgehend hohen Druck auf dem Fußballen ({{pressure}}%). Dies kann zu Metatarsalgie oder Beschwerden im Vorfußbereich führen."
+    },
+    "temperatureAsymmetry": {
+      "name": "Temperaturasymmetrie",
+      "description": "Ihre Füße zeigen einen signifikanten Temperaturunterschied ({{avgDifference}}{{tempSymbol}}). Diese Asymmetrie kann auf Durchblutungsunterschiede oder ungleiche thermische Exposition zwischen Ihren Füßen hinweisen."
+    },
+    "weightDistributionImbalance": {
+      "name": "Ungleichgewicht der Gewichtsverteilung",
+      "description": "Ihre Gewichtsverteilung zwischen den Füßen zeigt ein konstantes Ungleichgewicht ({{percentage}}% Unterschied). Dies kann auf eine Bevorzugung eines Beins hinweisen, was zu Haltungs- oder Gangproblemen führen könnte."
+    }
+  }
+}

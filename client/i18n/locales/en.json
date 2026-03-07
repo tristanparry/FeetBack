@@ -1,0 +1,194 @@
+{
+  "common": {
+    "title": "FeetBack",
+    "temperature": {
+      "celsius": {
+        "name": "Celsius",
+        "symbol": "°C"
+      },
+      "fahrenheit": {
+        "name": "Fahrenheit",
+        "symbol": "°F"
+      }
+    },
+    "ok": "OK",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "no": "No",
+    "back": "Back",
+    "noItems": "Nothing To Display",
+    "leftInsole": "Left insole",
+    "rightInsole": "Right insole"
+  },
+  "login": {
+    "title": "Log In",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "noAccount": "Don't have an account?",
+    "registerButton": "Register",
+    "loginButton": "Log In",
+    "validation": {
+      "emailRequired": "Email is required.",
+      "emailValid": "Please enter a valid email address.",
+      "passwordRequired": "Password is required.",
+      "passwordTooShort": "Password must be at least 8 characters long.",
+      "passwordTooLong": "Password is too long.",
+      "REQUIRED": "Email and password required.",
+      "INVALID": "Invalid email or password.",
+      "UNKNOWN": "An unknown error occurred."
+    }
+  },
+  "register": {
+    "title": "Register",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "existingAccount": "Already have an account?",
+    "loginButton": "Log In",
+    "registerButton": "Register",
+    "validation": {
+      "emailRequired": "Email is required.",
+      "emailValid": "Please enter a valid email address.",
+      "passwordRequired": "Password is required.",
+      "passwordTooShort": "Password must be at least 8 characters long.",
+      "passwordTooLong": "Password is too long.",
+      "EXISTS": "User already registered.",
+      "REQUIRED": "Email and password required.",
+      "INVALID": "Invalid email or password.",
+      "UNKNOWN": "An unknown error occurred."
+    }
+  },
+  "accountInfo": {
+    "title": "Account Info",
+    "functions": {
+      "userName": {
+        "title": "Name"
+      },
+      "userPassword": {
+        "title": "Password"
+      },
+      "language": {
+        "title": "Language"
+      },
+      "temperature": {
+        "title": "Temperature Unit"
+      },
+      "logOut": {
+        "title": "Log Out"
+      },
+      "deleteAccount": {
+        "title": "Delete Account",
+        "description": "Are you sure you want to delete your account?"
+      }
+    }
+  },
+  "manageInsoles": {
+    "title": "Manage Insoles",
+    "noDevices": "No Insoles Paired",
+    "connectionStatus": {
+      "continuous": "Continuous connection",
+      "intermittent": "Intermittent connection",
+      "none": "No connection"
+    },
+    "chargeDevice": "Charge device as soon as possible.",
+    "L": "{{userName}}'s Left Insole",
+    "R": "{{userName}}'s Right Insole",
+    "functions": {
+      "pairInsole": {
+        "title": "Pair Insole",
+        "description": "To pair a new insole, visit the home tab, click the connection button in the top right corner, and switch on your FeetBack device."
+      },
+      "unpairInsole": {
+        "title": "Unpair Insole",
+        "description": "Are you sure you want to unpair {{insoleName}}?"
+      }
+    }
+  },
+  "home": {
+    "tabLabel": "Home",
+    "title": "FeetBack",
+    "metrics": {
+      "title": "Live Metrics",
+      "pressure": {
+        "name": "Pressure",
+        "description": "Average pressure distribution across feet, measured as a relative percentage of sensor capacity (%). A low pressure value indicates that the user may not be standing up, while a high pressure value indicates that the user may be performing strenuous load-bearing activity, such as running or jumping.\n\nTypical pressure values range from {{lowerPressure}}‒{{upperPressure}}%."
+      },
+      "alignment": {
+        "name": "Alignment",
+        "description": "Angular alignment of feet, measured by their difference in degrees (°). An alignment value of 0° indicates that the user's feet are facing the exact same direction.\n\nTypical alignment values range from {{lowerAlignment}}‒{{upperAlignment}}°.\n\nBoth left and right insoles must be connected to view this metric value."
+      },
+      "temperature": {
+        "name": "Temperature",
+        "description": "Average ambient temperature of feet, measured in degrees {{temperatureTypeName}} ({{temperatureTypeSymbol}}).\n\nTypical temperature values range from {{lowerTemp}}‒{{upperTemp}}{{temperatureTypeSymbol}}."
+      },
+      "healthInsights": {
+        "name": "Health Insights"
+      }
+    },
+    "insoles": {
+      "title": "Insoles"
+    }
+  },
+  "health": {
+    "tabLabel": "Health",
+    "title": "Health",
+    "overview": {
+      "title": "Overview",
+      "oneInsight": "Insight",
+      "multipleInsights": "Insights",
+      "notice": {
+        "title": "Notice",
+        "description": "All health insights are generated in accordance with insole data from the past {{threshold}} days."
+      }
+    },
+    "insights": {
+      "title": "Insights",
+      "noInsights": "No Health Insights"
+    },
+    "severity": {
+      "neutral": "Neutral",
+      "mild": "Mild",
+      "severe": "Severe"
+    }
+  },
+  "history": {
+    "tabLabel": "History",
+    "title": "History",
+    "dateNavigator": {
+      "notice": {
+        "title": "Notice",
+        "description": "All data is recorded and displayed in UTC (Coordinated Universal Time)."
+      }
+    },
+    "data": {
+      "noData": "No Data Available"
+    }
+  },
+  "profile": {
+    "tabLabel": "Profile",
+    "title": "My Profile",
+    "user": {
+      "member": "FeetBack member",
+      "registeredAt": "since"
+    },
+    "functions": {
+      "theme": {
+        "name": "Theme",
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+      },
+      "accountInfo": "Account Info",
+      "manageInsoles": "Manage Insoles",
+      "logOut": "Log Out"
+    },
+    "greetings": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    }
+  },
+  "notification": {
+    "title": "Low Battery",
+    "message": "{{insoleName}} battery is low. Please switch off and charge insole."
+  }
+}

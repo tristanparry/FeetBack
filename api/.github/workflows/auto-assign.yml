@@ -1,0 +1,13 @@
+name: "Auto Assign PR Reviewer"
+
+on:
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  add-reviewers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: kentaro-m/auto-assign-action@v2.0.0
+        with:
+          repo-token: ${{ secrets.AUTO_ASSIGN_PAT }}

@@ -1,0 +1,199 @@
+{
+  "common": {
+    "title": "FeetBack",
+    "temperature": {
+      "celsius": {
+        "name": "Celsius",
+        "symbol": "°C"
+      },
+      "fahrenheit": {
+        "name": "Fahrenheit",
+        "symbol": "°F"
+      }
+    },
+    "ok": "OK",
+    "cancel": "Cancelar",
+    "yes": "Sim",
+    "no": "Não",
+    "back": "Voltar",
+    "noItems": "Nada para exibir",
+    "leftInsole": "Palmilha esquerda",
+    "rightInsole": "Palmilha direita"
+  },
+  "login": {
+    "title": "Entrar",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Senha",
+    "noAccount": "Não tem uma conta?",
+    "registerButton": "Registrar",
+    "loginButton": "Entrar",
+    "validation": {
+      "emailRequired": "O e-mail é obrigatório.",
+      "emailValid": "Por favor, insira um endereço de e-mail válido.",
+      "passwordRequired": "A senha é obrigatória.",
+      "passwordTooShort": "A senha deve ter pelo menos 8 caracteres.",
+      "passwordTooLong": "A senha é muito longa.",
+      "REQUIRED": "E-mail e senha obrigatórios.",
+      "INVALID": "E-mail ou senha inválidos.",
+      "UNKNOWN": "Ocorreu um erro desconhecido."
+    }
+  },
+  "register": {
+    "title": "Registrar",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Senha",
+    "existingAccount": "Já tem uma conta?",
+    "loginButton": "Entrar",
+    "registerButton": "Registrar",
+    "validation": {
+      "emailRequired": "O e-mail é obrigatório.",
+      "emailValid": "Por favor, insira um endereço de e-mail válido.",
+      "passwordRequired": "A senha é obrigatória.",
+      "passwordTooShort": "A senha deve ter pelo menos 8 caracteres.",
+      "passwordTooLong": "A senha é muito longa.",
+      "EXISTS": "Usuário já registrado.",
+      "REQUIRED": "E-mail e senha obrigatórios.",
+      "INVALID": "E-mail ou senha inválidos.",
+      "UNKNOWN": "Ocorreu um erro desconhecido."
+    }
+  },
+  "accountInfo": {
+    "title": "Informações da conta",
+    "functions": {
+      "userName": {
+        "title": "Nome"
+      },
+      "userPassword": {
+        "title": "Senha"
+      },
+      "language": {
+        "title": "Idioma"
+      },
+      "temperature": {
+        "title": "Unidade de temperatura"
+      },
+      "logOut": {
+        "title": "Sair"
+      },
+      "deleteAccount": {
+        "title": "Excluir conta",
+        "description": "Tem certeza de que deseja excluir sua conta?"
+      }
+    }
+  },
+  "manageInsoles": {
+    "title": "Gerenciar palmilhas",
+    "noDevices": "Nenhuma palmilha emparelhada",
+    "connectionStatus": {
+      "continuous": "Conexão contínua",
+      "intermittent": "Conexão intermitente",
+      "none": "Sem conexão"
+    },
+    "chargeDevice": "Carregue o dispositivo o mais rápido possível.",
+    "L": "Palmilha esquerda de {{userName}}",
+    "R": "Palmilha direita de {{userName}}",
+    "functions": {
+      "pairInsole": {
+        "title": "Emparelhar palmilha",
+        "description": "Para emparelhar uma nova palmilha, visite a aba inicial, clique no botão de conexão no canto superior direito e ligue seu dispositivo FeetBack."
+      },
+      "unpairInsole": {
+        "title": "Desemparelhar palmilha",
+        "description": "Tem certeza de que deseja desemparelhar {{insoleName}}?"
+      }
+    }
+  },
+  "home": {
+    "tabLabel": "Início",
+    "title": "FeetBack",
+    "metrics": {
+      "title": "Métricas ao vivo",
+      "pressure": {
+        "name": "Pressão",
+        "description": "Distribuição média de pressão nos pés, medida como uma porcentagem relativa da capacidade do sensor (%). Um valor de pressão baixo indica que o usuário pode não estar em pé, enquanto um valor de pressão alto indica que o usuário pode estar realizando uma atividade de carga intensa, como correr ou pular.\n\nOs valores típicos de pressão variam de {{lowerPressure}}‒{{upperPressure}}%."
+      },
+      "alignment": {
+        "name": "Alinhamento",
+        "description": "Alinhamento angular dos pés, medido pela diferença em graus (°). Um valor de alinhamento de 0° indica que os pés do usuário estão voltados exatamente para a mesma direção.\n\nOs valores típicos de alinhamento variam de {{lowerAlignment}}‒{{upperAlignment}}°.\n\nAmbas as palmilhas, esquerda e direita, devem estar conectadas para visualizar esse valor métrico."
+      },
+      "temperature": {
+        "name": "Temperatura",
+        "description": "Temperatura ambiente média dos pés, medida em graus {{temperatureTypeName}} ({{temperatureTypeSymbol}}).\n\nOs valores típicos de temperatura variam de {{lowerTemp}}‒{{upperTemp}}{{temperatureTypeSymbol}}."
+      },
+      "healthInsights": {
+        "name": "Informações sobre saúde"
+      }
+    },
+    "insoles": {
+      "title": "Palmilhas"
+    }
+  },
+  "health": {
+    "tabLabel": "Saúde",
+    "title": "Saúde",
+    "overview": {
+      "title": "Visão geral",
+      "oneInsight": "Informação",
+      "multipleInsights": "Informações",
+      "notice": {
+        "title": "Aviso",
+        "description": "Todas as informações sobre saúde são geradas de acordo com os dados das palmilhas dos últimos {{threshold}} dias."
+      }
+    },
+    "insights": {
+      "title": "Informações",
+      "noInsights": "Nenhuma informação sobre saúde"
+    },
+    "severity": {
+      "neutral": "Neutro",
+      "mild": "Leve",
+      "severe": "Grave"
+    }
+  },
+  "history": {
+    "tabLabel": "Histórico",
+    "title": "Histórico",
+    "dateNavigator": {
+      "notice": {
+        "title": "Aviso",
+        "description": "Todos os dados são registrados e exibidos em UTC (Tempo Universal Coordenado)."
+      }
+    },
+    "data": {
+      "noData": "Nenhum dado disponível"
+    }
+  },
+  "profile": {
+    "tabLabel": "Perfil",
+    "title": "Meu perfil",
+    "user": {
+      "member": "Membro FeetBack",
+      "registeredAt": "desde"
+    },
+    "functions": {
+      "theme": {
+        "name": "Tema",
+        "light": "Claro",
+        "dark": "Escuro",
+        "system": "Sistema"
+      },
+      "accountInfo": "Informações da conta",
+      "manageInsoles": "Gerenciar palmilhas",
+      "logOut": "Sair"
+    },
+    "greetings": {
+      "morning": "Bom dia",
+      "afternoon": "Boa tarde",
+      "evening": "Boa noite"
+    },
+    "notification": {
+      "title": "Bateria fraca",
+      "message": "{{insoleName}} está com bateria fraca. Por favor desligue e carregue a palmilha.",
+      "permissionTitle": "Notificações desativadas",
+      "permissionMessage": "As notificações estão desativadas. Ative nas configurações do dispositivo.",
+      "scheduledTitle": "Notificação agendada",
+      "scheduledMessage": "Uma notificação foi agendada."
+    }
+  }
+}
+

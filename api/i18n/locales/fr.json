@@ -1,0 +1,66 @@
+{
+  "common": {
+    "foot": {
+      "L": "Gauche",
+      "R": "Droit"
+    },
+    "temperature": {
+      "C": {
+        "symbol": "°C"
+      },
+      "F": {
+        "symbol": "°F"
+      }
+    }
+  },
+  "healthInsights": {
+    "lowTemperature": {
+      "name": "Température Basse du Pied (Pied {{foot}})",
+      "description": "Votre pied {{foot}} a montré des lectures de température constamment basses au cours des derniers jours ({{temp}}{{tempSymbol}}). Cela peut indiquer une mauvaise circulation ou une exposition au froid."
+    },
+    "highTemperature": {
+      "name": "Température Élevée du Pied (Pied {{foot}})",
+      "description": "Votre pied {{foot}} a montré des lectures de température constamment élevées au cours des derniers jours ({{temp}}{{tempSymbol}}). Cela peut indiquer une inflammation ou une surchauffe."
+    },
+    "wideFootAngle": {
+      "name": "Angle Large des Pieds",
+      "description": "Vos pieds gauche et droit ont montré une différence d'alignement significative ({{avgDifference}}°) au cours des derniers jours. Cela peut indiquer un angle large des pieds et/ou une marche en canard."
+    },
+    "highArches": {
+      "name": "Voûtes Plantaires Hautes (Pied {{foot}})",
+      "description": "Votre pied {{foot}} montre une pression constamment basse dans la zone de la voûte plantaire ({{pressure}}%), indiquant des voûtes hautes. Cela peut nécessiter un soutien approprié de la chaussure."
+    },
+    "lowArches": {
+      "name": "Voûtes Basses / Pieds Plats (Pied {{foot}})",
+      "description": "Votre pied {{foot}} montre une pression constamment élevée dans la zone de la voûte plantaire ({{pressure}}%), indiquant des voûtes basses ou des pieds plats. Envisagez un soutien de la voûte dans vos chaussures."
+    },
+    "highOverallPressure": {
+      "name": "Pression Élevée du Pied (Pied {{foot}})",
+      "description": "Votre pied {{foot}} montre une pression constamment élevée sur tous les capteurs ({{pressure}}%). Cela peut indiquer un impact fort du pied ou un poids excessif. Envisagez des chaussures avec un meilleur amorti."
+    },
+    "lowOverallPressure": {
+      "name": "Pression Basse du Pied (Pied {{foot}})",
+      "description": "Votre pied {{foot}} montre une pression constamment basse sur les capteurs ({{pressure}}%). Cela peut indiquer une activité réduite, un impact léger du pied, ou que la semelle n'est pas portée régulièrement."
+    },
+    "heelHeavyGait": {
+      "name": "Démarche Lourde sur le Talon (Pied {{foot}})",
+      "description": "Votre pied {{foot}} montre une pression constamment élevée sur le talon ({{pressure}}%). Cette démarche avec impact sur le talon peut entraîner un inconfort au talon. Envisagez d'ajuster votre démarche ou d'utiliser un amorti pour le talon."
+    },
+    "toeHeavyGait": {
+      "name": "Démarche Lourde sur les Orteils (Pied {{foot}})",
+      "description": "Votre pied {{foot}} montre une pression constamment élevée sur les orteils ({{pressure}}%). Cette démarche avec impact sur l'avant-pied peut causer un inconfort des orteils ou de la plante du pied avec le temps."
+    },
+    "highBallPressure": {
+      "name": "Pression Élevée sur la Plante (Pied {{foot}})",
+      "description": "Votre pied {{foot}} montre une pression constamment élevée sur la plante du pied ({{pressure}}%). Cela peut entraîner une métatarsalgie ou un inconfort dans la zone avant du pied."
+    },
+    "temperatureAsymmetry": {
+      "name": "Asymétrie de Température",
+      "description": "Vos pieds montrent une différence de température significative ({{avgDifference}}{{tempSymbol}}). Cette asymétrie peut indiquer des différences de circulation ou une exposition thermique inégale entre vos pieds."
+    },
+    "weightDistributionImbalance": {
+      "name": "Déséquilibre de Répartition du Poids",
+      "description": "La répartition du poids entre vos pieds montre un déséquilibre constant ({{percentage}}% de différence). Cela peut indiquer une préférence pour une jambe, ce qui pourrait entraîner des problèmes de posture ou de démarche."
+    }
+  }
+}

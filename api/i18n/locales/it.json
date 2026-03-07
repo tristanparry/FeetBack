@@ -1,0 +1,66 @@
+{
+  "common": {
+    "foot": {
+      "L": "Sinistro",
+      "R": "Destro"
+    },
+    "temperature": {
+      "C": {
+        "symbol": "°C"
+      },
+      "F": {
+        "symbol": "°F"
+      }
+    }
+  },
+  "healthInsights": {
+    "lowTemperature": {
+      "name": "Temperatura Bassa del Piede (Piede {{foot}})",
+      "description": "Il tuo piede {{foot}} ha mostrato letture di temperatura costantemente basse negli ultimi giorni ({{temp}}{{tempSymbol}}). Questo può indicare una cattiva circolazione o esposizione al freddo."
+    },
+    "highTemperature": {
+      "name": "Temperatura Alta del Piede (Piede {{foot}})",
+      "description": "Il tuo piede {{foot}} ha mostrato letture di temperatura costantemente alte negli ultimi giorni ({{temp}}{{tempSymbol}}). Questo può indicare infiammazione o surriscaldamento."
+    },
+    "wideFootAngle": {
+      "name": "Angolo Largo del Piede",
+      "description": "I tuoi piedi sinistro e destro hanno mostrato una differenza significativa di allineamento ({{avgDifference}}°) negli ultimi giorni. Questo può indicare un angolo largo del piede e/o extrarotazione."
+    },
+    "highArches": {
+      "name": "Archi Alti (Piede {{foot}})",
+      "description": "Il tuo piede {{foot}} mostra una pressione costantemente bassa nell'area dell'arco ({{pressure}}%), indicando archi alti. Questo può richiedere un supporto adeguato delle calzature."
+    },
+    "lowArches": {
+      "name": "Archi Bassi / Piedi Piatti (Piede {{foot}})",
+      "description": "Il tuo piede {{foot}} mostra una pressione costantemente alta nell'area dell'arco ({{pressure}}%), indicando archi bassi o piedi piatti. Considera un supporto per l'arco nelle tue calzature."
+    },
+    "highOverallPressure": {
+      "name": "Pressione Alta del Piede (Piede {{foot}})",
+      "description": "Il tuo piede {{foot}} mostra una pressione costantemente alta su tutti i sensori ({{pressure}}%). Questo può indicare un impatto forte del piede o carico eccessivo. Considera calzature con migliore ammortizzazione."
+    },
+    "lowOverallPressure": {
+      "name": "Pressione Bassa del Piede (Piede {{foot}})",
+      "description": "Il tuo piede {{foot}} mostra una pressione costantemente bassa sui sensori ({{pressure}}%). Questo può indicare attività ridotta, impatto leggero del piede, o che la soletta non viene indossata regolarmente."
+    },
+    "heelHeavyGait": {
+      "name": "Andatura Pesante sul Tallone (Piede {{foot}})",
+      "description": "Il tuo piede {{foot}} mostra una pressione costantemente alta sul tallone ({{pressure}}%). Questo schema di appoggio sul tallone può causare fastidio al tallone. Considera di regolare la tua andatura o di usare ammortizzazione per il tallone."
+    },
+    "toeHeavyGait": {
+      "name": "Andatura Pesante sulle Dita (Piede {{foot}})",
+      "description": "Il tuo piede {{foot}} mostra una pressione costantemente alta sulle dita ({{pressure}}%). Questo schema di appoggio sull'avampiede può causare fastidio alle dita o alla pianta del piede nel tempo."
+    },
+    "highBallPressure": {
+      "name": "Pressione Alta sulla Pianta (Piede {{foot}})",
+      "description": "Il tuo piede {{foot}} mostra una pressione costantemente alta sulla pianta del piede ({{pressure}}%). Questo può causare metatarsalgia o fastidio nell'area dell'avampiede."
+    },
+    "temperatureAsymmetry": {
+      "name": "Asimmetria di Temperatura",
+      "description": "I tuoi piedi mostrano una differenza significativa di temperatura ({{avgDifference}}{{tempSymbol}}). Questa asimmetria può indicare differenze di circolazione o esposizione termica irregolare tra i tuoi piedi."
+    },
+    "weightDistributionImbalance": {
+      "name": "Squilibrio nella Distribuzione del Peso",
+      "description": "La distribuzione del peso tra i tuoi piedi mostra uno squilibrio costante ({{percentage}}% di differenza). Questo può indicare il favorire una gamba, che potrebbe portare a problemi di postura o andatura."
+    }
+  }
+}

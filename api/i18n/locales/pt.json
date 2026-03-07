@@ -1,0 +1,66 @@
+{
+  "common": {
+    "foot": {
+      "L": "Esquerdo",
+      "R": "Direito"
+    },
+    "temperature": {
+      "C": {
+        "symbol": "°C"
+      },
+      "F": {
+        "symbol": "°F"
+      }
+    }
+  },
+  "healthInsights": {
+    "lowTemperature": {
+      "name": "Temperatura Baixa do Pé (Pé {{foot}})",
+      "description": "Seu pé {{foot}} tem mostrado leituras de temperatura consistentemente baixas nos últimos dias ({{temp}}{{tempSymbol}}). Isso pode indicar má circulação ou exposição ao frio."
+    },
+    "highTemperature": {
+      "name": "Temperatura Alta do Pé (Pé {{foot}})",
+      "description": "Seu pé {{foot}} tem mostrado leituras de temperatura consistentemente altas nos últimos dias ({{temp}}{{tempSymbol}}). Isso pode indicar inflamação ou superaquecimento."
+    },
+    "wideFootAngle": {
+      "name": "Ângulo Largo do Pé",
+      "description": "Seus pés esquerdo e direito têm mostrado uma diferença significativa de alinhamento ({{avgDifference}}°) nos últimos dias. Isso pode indicar um ângulo largo do pé e/ou rotação externa."
+    },
+    "highArches": {
+      "name": "Arcos Altos (Pé {{foot}})",
+      "description": "Seu pé {{foot}} mostra pressão consistentemente baixa na área do arco ({{pressure}}%), indicando arcos altos. Isso pode exigir suporte adequado do calçado."
+    },
+    "lowArches": {
+      "name": "Arcos Baixos / Pés Chatos (Pé {{foot}})",
+      "description": "Seu pé {{foot}} mostra pressão consistentemente alta na área do arco ({{pressure}}%), indicando arcos baixos ou pés chatos. Considere suporte para o arco em seu calçado."
+    },
+    "highOverallPressure": {
+      "name": "Pressão Alta do Pé (Pé {{foot}})",
+      "description": "Seu pé {{foot}} mostra pressão consistentemente alta em todos os sensores ({{pressure}}%). Isso pode indicar pisada forte ou sobrecarga de peso. Considere calçados com melhor amortecimento."
+    },
+    "lowOverallPressure": {
+      "name": "Pressão Baixa do Pé (Pé {{foot}})",
+      "description": "Seu pé {{foot}} mostra pressão consistentemente baixa nos sensores ({{pressure}}%). Isso pode indicar atividade reduzida, pisada leve, ou que a palmilha não está sendo usada regularmente."
+    },
+    "heelHeavyGait": {
+      "name": "Marcha Pesada no Calcanhar (Pé {{foot}})",
+      "description": "Seu pé {{foot}} mostra pressão consistentemente alta no calcanhar ({{pressure}}%). Este padrão de pisada no calcanhar pode causar desconforto no calcanhar. Considere ajustar sua marcha ou usar amortecimento para o calcanhar."
+    },
+    "toeHeavyGait": {
+      "name": "Marcha Pesada nos Dedos (Pé {{foot}})",
+      "description": "Seu pé {{foot}} mostra pressão consistentemente alta nos dedos ({{pressure}}%). Este padrão de pisada no antepé pode causar desconforto nos dedos ou na planta do pé ao longo do tempo."
+    },
+    "highBallPressure": {
+      "name": "Pressão Alta na Base dos Dedos (Pé {{foot}})",
+      "description": "Seu pé {{foot}} mostra pressão consistentemente alta na base dos dedos ({{pressure}}%). Isso pode causar metatarsalgia ou desconforto na área do antepé."
+    },
+    "temperatureAsymmetry": {
+      "name": "Assimetria de Temperatura",
+      "description": "Seus pés mostram uma diferença significativa de temperatura ({{avgDifference}}{{tempSymbol}}). Esta assimetria pode indicar diferenças de circulação ou exposição térmica desigual entre seus pés."
+    },
+    "weightDistributionImbalance": {
+      "name": "Desequilíbrio na Distribuição do Peso",
+      "description": "A distribuição de peso entre seus pés mostra um desequilíbrio consistente ({{percentage}}% de diferença). Isso pode indicar preferência por uma perna, o que poderia levar a problemas de postura ou marcha."
+    }
+  }
+}

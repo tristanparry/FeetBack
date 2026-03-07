@@ -1,0 +1,199 @@
+{
+  "common": {
+    "title": "FeetBack",
+    "temperature": {
+      "celsius": {
+        "name": "Celsius",
+        "symbol": "°C"
+      },
+      "fahrenheit": {
+        "name": "Fahrenheit",
+        "symbol": "°F"
+      }
+    },
+    "ok": "OK",
+    "cancel": "Annulla",
+    "yes": "Sì",
+    "no": "No",
+    "back": "Indietro",
+    "noItems": "Niente da visualizzare",
+    "leftInsole": "Sottopiede sinistro",
+    "rightInsole": "Sottopiede destro"
+  },
+  "login": {
+    "title": "Accedi",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "noAccount": "Non hai un account?",
+    "registerButton": "Registrati",
+    "loginButton": "Accedi",
+    "validation": {
+      "emailRequired": "L'email è obbligatoria.",
+      "emailValid": "Per favore inserisci un indirizzo email valido.",
+      "passwordRequired": "La password è obbligatoria.",
+      "passwordTooShort": "La password deve contenere almeno 8 caratteri.",
+      "passwordTooLong": "La password è troppo lunga.",
+      "REQUIRED": "Email e password obbligatorie.",
+      "INVALID": "Email o password non valide.",
+      "UNKNOWN": "Si è verificato un errore sconosciuto."
+    }
+  },
+  "register": {
+    "title": "Registrati",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "existingAccount": "Hai già un account?",
+    "loginButton": "Accedi",
+    "registerButton": "Registrati",
+    "validation": {
+      "emailRequired": "L'email è obbligatoria.",
+      "emailValid": "Per favore inserisci un indirizzo email valido.",
+      "passwordRequired": "La password è obbligatoria.",
+      "passwordTooShort": "La password deve contenere almeno 8 caratteri.",
+      "passwordTooLong": "La password è troppo lunga.",
+      "EXISTS": "Utente già registrato.",
+      "REQUIRED": "Email e password obbligatorie.",
+      "INVALID": "Email o password non valide.",
+      "UNKNOWN": "Si è verificato un errore sconosciuto."
+    }
+  },
+  "accountInfo": {
+    "title": "Informazioni account",
+    "functions": {
+      "userName": {
+        "title": "Nome"
+      },
+      "userPassword": {
+        "title": "Password"
+      },
+      "language": {
+        "title": "Lingua"
+      },
+      "temperature": {
+        "title": "Unità di temperatura"
+      },
+      "logOut": {
+        "title": "Esci"
+      },
+      "deleteAccount": {
+        "title": "Elimina account",
+        "description": "Sei sicuro di voler eliminare il tuo account?"
+      }
+    }
+  },
+  "manageInsoles": {
+    "title": "Gestisci solette",
+    "noDevices": "Nessuna soletta associata",
+    "connectionStatus": {
+      "continuous": "Connessione continua",
+      "intermittent": "Connessione intermittente",
+      "none": "Nessuna connessione"
+    },
+    "chargeDevice": "Carica il dispositivo il prima possibile.",
+    "L": "Soletta sinistra di {{userName}}",
+    "R": "Soletta destra di {{userName}}",
+    "functions": {
+      "pairInsole": {
+        "title": "Associa soletta",
+        "description": "Per associare una nuova soletta, visita la scheda home, fai clic sul pulsante di connessione nell'angolo in alto a destra e accendi il tuo dispositivo FeetBack."
+      },
+      "unpairInsole": {
+        "title": "Dissocia soletta",
+        "description": "Sei sicuro di voler dissociare {{insoleName}}?"
+      }
+    }
+  },
+  "home": {
+    "tabLabel": "Home",
+    "title": "FeetBack",
+    "metrics": {
+      "title": "Metriche in tempo reale",
+      "pressure": {
+        "name": "Pressione",
+        "description": "Distribuzione media della pressione sui piedi, misurata come percentuale relativa della capacità del sensore (%). Un valore di pressione basso indica che l'utente potrebbe non essere in piedi, mentre un valore di pressione alto indica che l'utente potrebbe svolgere un'attività faticosa di carico, come correre o saltare.\n\nI valori tipici di pressione variano da {{lowerPressure}}‒{{upperPressure}}%."
+      },
+      "alignment": {
+        "name": "Allineamento",
+        "description": "Allineamento angolare dei piedi, misurato dalla loro differenza in gradi (°). Un valore di allineamento di 0° indica che i piedi dell'utente sono rivolti esattamente nella stessa direzione.\n\nI valori tipici di allineamento variano da {{lowerAlignment}}‒{{upperAlignment}}°.\n\nEntrambe le solette, sinistra e destra, devono essere collegate per visualizzare questo valore metrico."
+      },
+      "temperature": {
+        "name": "Temperatura",
+        "description": "Temperatura ambiente media dei piedi, misurata in gradi {{temperatureTypeName}} ({{temperatureTypeSymbol}}).\n\nI valori tipici di temperatura variano da {{lowerTemp}}‒{{upperTemp}}{{temperatureTypeSymbol}}."
+      },
+      "healthInsights": {
+        "name": "Informazioni sulla salute"
+      }
+    },
+    "insoles": {
+      "title": "Solette"
+    }
+  },
+  "health": {
+    "tabLabel": "Salute",
+    "title": "Salute",
+    "overview": {
+      "title": "Panoramica",
+      "oneInsight": "Informazione",
+      "multipleInsights": "Informazioni",
+      "notice": {
+        "title": "Avviso",
+        "description": "Tutte le informazioni sulla salute sono generate in base ai dati delle solette degli ultimi {{threshold}} giorni."
+      }
+    },
+    "insights": {
+      "title": "Informazioni",
+      "noInsights": "Nessuna informazione sulla salute"
+    },
+    "severity": {
+      "neutral": "Neutrale",
+      "mild": "Lieve",
+      "severe": "Grave"
+    }
+  },
+  "history": {
+    "tabLabel": "Cronologia",
+    "title": "Cronologia",
+    "dateNavigator": {
+      "notice": {
+        "title": "Avviso",
+        "description": "Tutti i dati sono registrati e visualizzati in UTC (Tempo Coordinato Universale)."
+      }
+    },
+    "data": {
+      "noData": "Nessun dato disponibile"
+    }
+  },
+  "profile": {
+    "tabLabel": "Profilo",
+    "title": "Il mio profilo",
+    "user": {
+      "member": "Membro FeetBack",
+      "registeredAt": "dal"
+    },
+    "functions": {
+      "theme": {
+        "name": "Tema",
+        "light": "Chiaro",
+        "dark": "Scuro",
+        "system": "Sistema"
+      },
+      "accountInfo": "Informazioni account",
+      "manageInsoles": "Gestisci solette",
+      "logOut": "Esci"
+    },
+    "greetings": {
+      "morning": "Buongiorno",
+      "afternoon": "Buon pomeriggio",
+      "evening": "Buonasera"
+    },
+    "notification": {
+      "title": "Batteria bassa",
+      "message": "{{insoleName}} ha batteria bassa. Spegni e ricarica il sottopiede.",
+      "permissionTitle": "Notifiche disabilitate",
+      "permissionMessage": "Le notifiche sono disabilitate. Attiva le notifiche nelle impostazioni del dispositivo.",
+      "scheduledTitle": "Notifica programmata",
+      "scheduledMessage": "Una notifica è stata programmata."
+    }
+  }
+}
+

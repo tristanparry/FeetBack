@@ -1,0 +1,1 @@
+export const HEALTH_INSIGHTS_TIME_THRESHOLD = 3;

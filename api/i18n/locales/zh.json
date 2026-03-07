@@ -1,0 +1,66 @@
+{
+  "common": {
+    "foot": {
+      "L": "左",
+      "R": "右"
+    },
+    "temperature": {
+      "C": {
+        "symbol": "°C"
+      },
+      "F": {
+        "symbol": "°F"
+      }
+    }
+  },
+  "healthInsights": {
+    "lowTemperature": {
+      "name": "足部温度过低（{{foot}}脚）",
+      "description": "您的{{foot}}脚在过去几天一直显示较低的温度读数（{{temp}}{{tempSymbol}}）。这可能表明血液循环不良或暴露在寒冷环境中。"
+    },
+    "highTemperature": {
+      "name": "足部温度过高（{{foot}}脚）",
+      "description": "您的{{foot}}脚在过去几天一直显示较高的温度读数（{{temp}}{{tempSymbol}}）。这可能表明有炎症或过热。"
+    },
+    "wideFootAngle": {
+      "name": "足部角度过宽",
+      "description": "您的左右脚在过去几天显示出显著的对齐差异（{{avgDifference}}°）。这可能表明足部角度过宽和/或外八字。"
+    },
+    "highArches": {
+      "name": "高足弓（{{foot}}脚）",
+      "description": "您的{{foot}}脚在足弓区域显示持续较低的压力（{{pressure}}%），表明足弓较高。这可能需要适当的鞋类支撑。"
+    },
+    "lowArches": {
+      "name": "低足弓 / 扁平足（{{foot}}脚）",
+      "description": "您的{{foot}}脚在足弓区域显示持续较高的压力（{{pressure}}%），表明足弓较低或扁平足。考虑在您的鞋子中使用足弓支撑。"
+    },
+    "highOverallPressure": {
+      "name": "足部压力过高（{{foot}}脚）",
+      "description": "您的{{foot}}脚在所有传感器上显示持续较高的压力（{{pressure}}%）。这可能表明足部着地力度大或承重过度。考虑使用缓冲性能更好的鞋类。"
+    },
+    "lowOverallPressure": {
+      "name": "足部压力过低（{{foot}}脚）",
+      "description": "您的{{foot}}脚在传感器上显示持续较低的压力（{{pressure}}%）。这可能表明活动减少、足部着地轻或鞋垫未定期佩戴。"
+    },
+    "heelHeavyGait": {
+      "name": "重踵步态（{{foot}}脚）",
+      "description": "您的{{foot}}脚在脚跟处显示持续较高的压力（{{pressure}}%）。这种脚跟着地模式可能导致脚跟不适。考虑调整您的步态或使用脚跟缓冲。"
+    },
+    "toeHeavyGait": {
+      "name": "重趾步态（{{foot}}脚）",
+      "description": "您的{{foot}}脚在脚趾处显示持续较高的压力（{{pressure}}%）。这种前掌着地模式可能随着时间推移导致脚趾或足底不适。"
+    },
+    "highBallPressure": {
+      "name": "足前掌压力过高（{{foot}}脚）",
+      "description": "您的{{foot}}脚在足前掌处显示持续较高的压力（{{pressure}}%）。这可能导致跖痛或前足区域不适。"
+    },
+    "temperatureAsymmetry": {
+      "name": "温度不对称",
+      "description": "您的双脚显示出显著的温度差异（{{avgDifference}}{{tempSymbol}}）。这种不对称可能表明您的双脚之间存在循环差异或热暴露不均。"
+    },
+    "weightDistributionImbalance": {
+      "name": "体重分布不平衡",
+      "description": "您的双脚之间的体重分布显示出持续的不平衡（{{percentage}}%差异）。这可能表明偏向一条腿，可能导致姿势或步态问题。"
+    }
+  }
+}

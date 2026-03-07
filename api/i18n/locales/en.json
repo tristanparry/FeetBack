@@ -1,0 +1,66 @@
+{
+  "common": {
+    "foot": {
+      "L": "Left",
+      "R": "Right"
+    },
+    "temperature": {
+      "C": {
+        "symbol": "°C"
+      },
+      "F": {
+        "symbol": "°F"
+      }
+    }
+  },
+  "healthInsights": {
+    "lowTemperature": {
+      "name": "Low Foot Temperature ({{foot}} Foot)",
+      "description": "Your {{foot}} foot has been showing consistently low temperature readings over the past few days ({{temp}}{{tempSymbol}}). This may indicate poor circulation or cold exposure."
+    },
+    "highTemperature": {
+      "name": "High Foot Temperature ({{foot}} Foot)",
+      "description": "Your {{foot}} foot has been showing consistently high temperature readings over the past few days ({{temp}}{{tempSymbol}}). This may indicate inflammation or overheating."
+    },
+    "wideFootAngle": {
+      "name": "Wide Foot Angle",
+      "description": "Your left and right feet have shown a significant alignment difference ({{avgDifference}}°) over the past few days. This may indicate a wide foot angle and/or out-toeing."
+    },
+    "highArches": {
+      "name": "High Arches ({{foot}} Foot)",
+      "description": "Your {{foot}} foot shows consistently low pressure in the arch area ({{pressure}}%), indicating high arches. This may require appropriate footwear support."
+    },
+    "lowArches": {
+      "name": "Low Arches / Flat Feet ({{foot}} Foot)",
+      "description": "Your {{foot}} foot shows consistently high pressure in the arch area ({{pressure}}%), indicating low arches or flat feet. Consider arch support in your footwear."
+    },
+    "highOverallPressure": {
+      "name": "High Foot Pressure ({{foot}} Foot)",
+      "description": "Your {{foot}} foot shows consistently high pressure across all sensors ({{pressure}}%). This may indicate heavy foot strike or excessive weight bearing. Consider footwear with better cushioning."
+    },
+    "lowOverallPressure": {
+      "name": "Low Foot Pressure ({{foot}} Foot)",
+      "description": "Your {{foot}} foot shows consistently low pressure across sensors ({{pressure}}%). This may indicate reduced activity, light foot strike, or the insole not being worn regularly."
+    },
+    "heelHeavyGait": {
+      "name": "Heel-Heavy Gait ({{foot}} Foot)",
+      "description": "Your {{foot}} foot shows consistently high pressure on the heel ({{pressure}}%). This heel-strike pattern may lead to heel discomfort. Consider adjusting your gait or using heel cushioning."
+    },
+    "toeHeavyGait": {
+      "name": "Toe-Heavy Gait ({{foot}} Foot)",
+      "description": "Your {{foot}} foot shows consistently high pressure on the toes ({{pressure}}%). This forefoot-strike pattern may cause toe or ball of foot discomfort over time."
+    },
+    "highBallPressure": {
+      "name": "High Ball of Foot Pressure ({{foot}} Foot)",
+      "description": "Your {{foot}} foot shows consistently high pressure on the ball of the foot ({{pressure}}%). This can lead to metatarsalgia or discomfort in the forefoot area."
+    },
+    "temperatureAsymmetry": {
+      "name": "Temperature Asymmetry",
+      "description": "Your feet show a significant temperature difference ({{avgDifference}}{{tempSymbol}}). This asymmetry may indicate circulation differences or uneven thermal exposure between your feet."
+    },
+    "weightDistributionImbalance": {
+      "name": "Weight Distribution Imbalance",
+      "description": "Your weight distribution between feet shows a consistent imbalance ({{percentage}}% difference). This may indicate favoring one leg, which could lead to posture or gait issues."
+    }
+  }
+}

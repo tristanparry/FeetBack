@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "timestamp",
+    "batteryLevel",
+    "alignment",
+    "temperature",
+    "forceSensors"
+  ],
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "batteryLevel": {
+      "oneOf": [
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        {
+          "type": "number",
+          "const": 65535
+        }
+      ]
+    },
+    "alignment": {
+      "oneOf": [
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 360
+        },
+        {
+          "type": "number",
+          "const": 65535
+        }
+      ]
+    },
+    "temperature": {
+      "type": "number",
+      "minimum": -128,
+      "maximum": 127
+    },
+    "forceSensors": {
+      "type": "array",
+      "minItems": 11,
+      "maxItems": 11,
+      "items": {
+        "type": "object",
+        "required": ["sensorID", "relativeForce"],
+        "properties": {
+          "sensorID": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 11
+          },
+          "relativeForce": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,198 @@
+{
+  "common": {
+    "title": "FeetBack",
+    "temperature": {
+      "celsius": {
+        "name": "Celsius",
+        "symbol": "°C"
+      },
+      "fahrenheit": {
+        "name": "Fahrenheit",
+        "symbol": "°F"
+      }
+    },
+    "ok": "OK",
+    "cancel": "Abbrechen",
+    "yes": "Ja",
+    "no": "Nein",
+    "back": "Zurück",
+    "noItems": "Nichts anzuzeigen",
+    "leftInsole": "Linke Einlage",
+    "rightInsole": "Rechte Einlage"
+  },
+  "login": {
+    "title": "Anmelden",
+    "emailPlaceholder": "E-Mail",
+    "passwordPlaceholder": "Passwort",
+    "noAccount": "Noch kein Konto?",
+    "registerButton": "Registrieren",
+    "loginButton": "Anmelden",
+    "validation": {
+      "emailRequired": "E-Mail ist erforderlich.",
+      "emailValid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "passwordRequired": "Passwort ist erforderlich.",
+      "passwordTooShort": "Das Passwort muss mindestens 8 Zeichen lang sein.",
+      "passwordTooLong": "Das Passwort ist zu lang.",
+      "REQUIRED": "E-Mail und Passwort erforderlich.",
+      "INVALID": "Ungültige E-Mail oder Passwort.",
+      "UNKNOWN": "Ein unbekannter Fehler ist aufgetreten."
+    }
+  },
+  "register": {
+    "title": "Registrieren",
+    "emailPlaceholder": "E-Mail",
+    "passwordPlaceholder": "Passwort",
+    "existingAccount": "Bereits ein Konto?",
+    "loginButton": "Anmelden",
+    "registerButton": "Registrieren",
+    "validation": {
+      "emailRequired": "E-Mail ist erforderlich.",
+      "emailValid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "passwordRequired": "Passwort ist erforderlich.",
+      "passwordTooShort": "Das Passwort muss mindestens 8 Zeichen lang sein.",
+      "passwordTooLong": "Das Passwort ist zu lang.",
+      "EXISTS": "Benutzer bereits registriert.",
+      "REQUIRED": "E-Mail und Passwort erforderlich.",
+      "INVALID": "Ungültige E-Mail oder Passwort.",
+      "UNKNOWN": "Ein unbekannter Fehler ist aufgetreten."
+    }
+  },
+  "accountInfo": {
+    "title": "Kontoinformationen",
+    "functions": {
+      "userName": {
+        "title": "Name"
+      },
+      "userPassword": {
+        "title": "Passwort"
+      },
+      "language": {
+        "title": "Sprache"
+      },
+      "temperature": {
+        "title": "Temperatureinheit"
+      },
+      "logOut": {
+        "title": "Abmelden"
+      },
+      "deleteAccount": {
+        "title": "Konto löschen",
+        "description": "Sind Sie sicher, dass Sie Ihr Konto löschen möchten?"
+      }
+    }
+  },
+  "manageInsoles": {
+    "title": "Einlegesohlen verwalten",
+    "noDevices": "Keine Einlegesohlen gekoppelt",
+    "connectionStatus": {
+      "continuous": "Kontinuierliche Verbindung",
+      "intermittent": "Unterbrochene Verbindung",
+      "none": "Keine Verbindung"
+    },
+    "chargeDevice": "Gerät so bald wie möglich aufladen.",
+    "L": "{{userName}}s linke Einlegesohle",
+    "R": "{{userName}}s rechte Einlegesohle",
+    "functions": {
+      "pairInsole": {
+        "title": "Einlegesohle koppeln",
+        "description": "Um eine neue Einlegesohle zu koppeln, besuchen Sie die Startseite, klicken Sie auf die Verbindungsschaltfläche oben rechts und schalten Sie Ihr FeetBack-Gerät ein."
+      },
+      "unpairInsole": {
+        "title": "Einlegesohle entkoppeln",
+        "description": "Sind Sie sicher, dass Sie {{insoleName}} entkoppeln möchten?"
+      }
+    }
+  },
+  "home": {
+    "tabLabel": "Startseite",
+    "title": "FeetBack",
+    "metrics": {
+      "title": "Live-Messwerte",
+      "pressure": {
+        "name": "Druck",
+        "description": "Durchschnittliche Druckverteilung über die Füße, gemessen als relativer Prozentsatz der Sensorkapazität (%). Ein niedriger Druckwert weist darauf hin, dass der Benutzer möglicherweise nicht steht, während ein hoher Druckwert darauf hinweist, dass der Benutzer möglicherweise eine anstrengende belastende Aktivität ausführt, wie z. B. Laufen oder Springen.\n\nTypische Druckwerte liegen zwischen {{lowerPressure}}‒{{upperPressure}}%."
+      },
+      "alignment": {
+        "name": "Ausrichtung",
+        "description": "Winkelausrichtung der Füße, gemessen durch ihre Differenz in Grad (°). Ein Ausrichtungswert von 0° zeigt an, dass die Füße des Benutzers in genau die gleiche Richtung zeigen.\n\nTypische Ausrichtungswerte liegen zwischen {{lowerAlignment}}‒{{upperAlignment}}°.\n\nBeide Einlegesohlen, links und rechts, müssen verbunden sein, um diesen Messwert anzuzeigen."
+      },
+      "temperature": {
+        "name": "Temperatur",
+        "description": "Durchschnittliche Umgebungstemperatur der Füße, gemessen in Grad {{temperatureTypeName}} ({{temperatureTypeSymbol}}).\n\nTypische Temperaturwerte liegen zwischen {{lowerTemp}}‒{{upperTemp}}{{temperatureTypeSymbol}}."
+      },
+      "healthInsights": {
+        "name": "Gesundheitseinblicke"
+      }
+    },
+    "insoles": {
+      "title": "Einlegesohlen"
+    }
+  },
+  "health": {
+    "tabLabel": "Gesundheit",
+    "title": "Gesundheit",
+    "overview": {
+      "title": "Übersicht",
+      "oneInsight": "Einblick",
+      "multipleInsights": "Einblicke",
+      "notice": {
+        "title": "Hinweis",
+        "description": "Alle Gesundheitseinblicke werden gemäß den Einlegesohlen-Daten der letzten {{threshold}} Tage erstellt."
+      }
+    },
+    "insights": {
+      "title": "Einblicke",
+      "noInsights": "Keine Gesundheitseinblicke"
+    },
+    "severity": {
+      "neutral": "Neutral",
+      "mild": "Leicht",
+      "severe": "Schwer"
+    }
+  },
+  "history": {
+    "tabLabel": "Verlauf",
+    "title": "Verlauf",
+    "dateNavigator": {
+      "notice": {
+        "title": "Hinweis",
+        "description": "Alle Daten werden in UTC (koordinierte Weltzeit) aufgezeichnet und angezeigt."
+      }
+    },
+    "data": {
+      "noData": "Keine Daten verfügbar"
+    }
+  },
+  "profile": {
+    "tabLabel": "Profil",
+    "title": "Mein Profil",
+    "user": {
+      "member": "FeetBack-Mitglied",
+      "registeredAt": "seit"
+    },
+    "functions": {
+      "theme": {
+        "name": "Design",
+        "light": "Hell",
+        "dark": "Dunkel",
+        "system": "System"
+      },
+      "accountInfo": "Kontoinformationen",
+      "manageInsoles": "Einlegesohlen verwalten",
+      "logOut": "Abmelden"
+    },
+    "greetings": {
+      "morning": "Guten Morgen",
+      "afternoon": "Guten Tag",
+      "evening": "Guten Abend"
+    },
+    "notification": {
+      "title": "Batterie schwach",
+      "message": "{{insoleName}} Akku ist niedrig. Bitte Insole ausschalten und aufladen.",
+      "permissionTitle": "Benachrichtigungen deaktiviert",
+      "permissionMessage": "Benachrichtigungen sind deaktiviert. Bitte aktivieren Sie Benachrichtigungen in den Geräteeinstellungen.",
+      "scheduledTitle": "Benachrichtigung geplant",
+      "scheduledMessage": "Eine Benachrichtigung wurde geplant."
+    }
+  }
+}

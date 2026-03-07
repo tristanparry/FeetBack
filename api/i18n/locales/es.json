@@ -1,0 +1,66 @@
+{
+  "common": {
+    "foot": {
+      "L": "Izquierdo",
+      "R": "Derecho"
+    },
+    "temperature": {
+      "C": {
+        "symbol": "°C"
+      },
+      "F": {
+        "symbol": "°F"
+      }
+    }
+  },
+  "healthInsights": {
+    "lowTemperature": {
+      "name": "Temperatura Baja del Pie (Pie {{foot}})",
+      "description": "Su pie {{foot}} ha estado mostrando lecturas de temperatura consistentemente bajas en los últimos días ({{temp}}{{tempSymbol}}). Esto puede indicar mala circulación o exposición al frío."
+    },
+    "highTemperature": {
+      "name": "Temperatura Alta del Pie (Pie {{foot}})",
+      "description": "Su pie {{foot}} ha estado mostrando lecturas de temperatura consistentemente altas en los últimos días ({{temp}}{{tempSymbol}}). Esto puede indicar inflamación o sobrecalentamiento."
+    },
+    "wideFootAngle": {
+      "name": "Ángulo Amplio del Pie",
+      "description": "Sus pies izquierdo y derecho han mostrado una diferencia significativa de alineación ({{avgDifference}}°) en los últimos días. Esto puede indicar un ángulo amplio del pie y/o marcha hacia afuera."
+    },
+    "highArches": {
+      "name": "Arcos Altos (Pie {{foot}})",
+      "description": "Su pie {{foot}} muestra una presión consistentemente baja en el área del arco ({{pressure}}%), indicando arcos altos. Esto puede requerir un soporte adecuado del calzado."
+    },
+    "lowArches": {
+      "name": "Arcos Bajos / Pies Planos (Pie {{foot}})",
+      "description": "Su pie {{foot}} muestra una presión consistentemente alta en el área del arco ({{pressure}}%), indicando arcos bajos o pies planos. Considere soporte para el arco en su calzado."
+    },
+    "highOverallPressure": {
+      "name": "Presión Alta del Pie (Pie {{foot}})",
+      "description": "Su pie {{foot}} muestra una presión consistentemente alta en todos los sensores ({{pressure}}%). Esto puede indicar un impacto fuerte del pie o carga excesiva de peso. Considere calzado con mejor amortiguación."
+    },
+    "lowOverallPressure": {
+      "name": "Presión Baja del Pie (Pie {{foot}})",
+      "description": "Su pie {{foot}} muestra una presión consistentemente baja en los sensores ({{pressure}}%). Esto puede indicar actividad reducida, impacto ligero del pie, o que la plantilla no se usa regularmente."
+    },
+    "heelHeavyGait": {
+      "name": "Marcha Pesada de Talón (Pie {{foot}})",
+      "description": "Su pie {{foot}} muestra una presión consistentemente alta en el talón ({{pressure}}%). Este patrón de golpe de talón puede causar molestias en el talón. Considere ajustar su marcha o usar amortiguación para el talón."
+    },
+    "toeHeavyGait": {
+      "name": "Marcha Pesada de Dedos (Pie {{foot}})",
+      "description": "Su pie {{foot}} muestra una presión consistentemente alta en los dedos ({{pressure}}%). Este patrón de golpe del antepié puede causar molestias en los dedos o la planta del pie con el tiempo."
+    },
+    "highBallPressure": {
+      "name": "Presión Alta en la Planta del Pie (Pie {{foot}})",
+      "description": "Su pie {{foot}} muestra una presión consistentemente alta en la planta del pie ({{pressure}}%). Esto puede causar metatarsalgia o molestias en el área del antepié."
+    },
+    "temperatureAsymmetry": {
+      "name": "Asimetría de Temperatura",
+      "description": "Sus pies muestran una diferencia significativa de temperatura ({{avgDifference}}{{tempSymbol}}). Esta asimetría puede indicar diferencias de circulación o exposición térmica desigual entre sus pies."
+    },
+    "weightDistributionImbalance": {
+      "name": "Desequilibrio en la Distribución del Peso",
+      "description": "La distribución de peso entre sus pies muestra un desequilibrio consistente ({{percentage}}% de diferencia). Esto puede indicar favorecer una pierna, lo que podría llevar a problemas de postura o marcha."
+    }
+  }
+}

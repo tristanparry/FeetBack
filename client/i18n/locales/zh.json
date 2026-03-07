@@ -1,0 +1,199 @@
+{
+  "common": {
+    "title": "FeetBack",
+    "temperature": {
+      "celsius": {
+        "name": "摄氏度",
+        "symbol": "°C"
+      },
+      "fahrenheit": {
+        "name": "华氏度",
+        "symbol": "°F"
+      }
+    },
+    "ok": "确定",
+    "cancel": "取消",
+    "yes": "是",
+    "no": "否",
+    "back": "返回",
+    "noItems": "无内容显示",
+    "leftInsole": "左鞋垫",
+    "rightInsole": "右鞋垫"
+  },
+  "login": {
+    "title": "登录",
+    "emailPlaceholder": "电子邮件",
+    "passwordPlaceholder": "密码",
+    "noAccount": "没有账户？",
+    "registerButton": "注册",
+    "loginButton": "登录",
+    "validation": {
+      "emailRequired": "电子邮件为必填项。",
+      "emailValid": "请输入有效的电子邮件地址。",
+      "passwordRequired": "密码为必填项。",
+      "passwordTooShort": "密码必须至少包含8个字符。",
+      "passwordTooLong": "密码太长。",
+      "REQUIRED": "电子邮件和密码为必填项。",
+      "INVALID": "电子邮件或密码无效。",
+      "UNKNOWN": "发生未知错误。"
+    }
+  },
+  "register": {
+    "title": "注册",
+    "emailPlaceholder": "电子邮件",
+    "passwordPlaceholder": "密码",
+    "existingAccount": "已有账户？",
+    "loginButton": "登录",
+    "registerButton": "注册",
+    "validation": {
+      "emailRequired": "电子邮件为必填项。",
+      "emailValid": "请输入有效的电子邮件地址。",
+      "passwordRequired": "密码为必填项。",
+      "passwordTooShort": "密码必须至少包含8个字符。",
+      "passwordTooLong": "密码太长。",
+      "EXISTS": "用户已注册。",
+      "REQUIRED": "电子邮件和密码为必填项。",
+      "INVALID": "电子邮件或密码无效。",
+      "UNKNOWN": "发生未知错误。"
+    }
+  },
+  "accountInfo": {
+    "title": "账户信息",
+    "functions": {
+      "userName": {
+        "title": "姓名"
+      },
+      "userPassword": {
+        "title": "密码"
+      },
+      "language": {
+        "title": "语言"
+      },
+      "temperature": {
+        "title": "温度单位"
+      },
+      "logOut": {
+        "title": "退出登录"
+      },
+      "deleteAccount": {
+        "title": "删除账户",
+        "description": "您确定要删除您的账户吗？"
+      }
+    }
+  },
+  "manageInsoles": {
+    "title": "管理鞋垫",
+    "noDevices": "未配对鞋垫",
+    "connectionStatus": {
+      "continuous": "持续连接",
+      "intermittent": "间歇连接",
+      "none": "无连接"
+    },
+    "chargeDevice": "请尽快给设备充电。",
+    "L": "{{userName}}的左鞋垫",
+    "R": "{{userName}}的右鞋垫",
+    "functions": {
+      "pairInsole": {
+        "title": "配对鞋垫",
+        "description": "要配对新鞋垫，请访问主页选项卡，单击右上角的连接按钮，然后打开您的FeetBack设备。"
+      },
+      "unpairInsole": {
+        "title": "取消配对鞋垫",
+        "description": "您确定要取消配对{{insoleName}}吗？"
+      }
+    }
+  },
+  "home": {
+    "tabLabel": "主页",
+    "title": "FeetBack",
+    "metrics": {
+      "title": "实时指标",
+      "pressure": {
+        "name": "压力",
+        "description": "脚部的平均压力分布，以传感器容量的相对百分比（%）衡量。低压力值表示用户可能没有站立，而高压力值表示用户可能正在进行剧烈的负重活动，如跑步或跳跃。\n\n典型的压力值范围为{{lowerPressure}}‒{{upperPressure}}%。"
+      },
+      "alignment": {
+        "name": "对齐",
+        "description": "脚部的角度对齐，通过它们的度数（°）差异来衡量。对齐值为0°表示用户的脚正好朝向同一方向。\n\n典型的对齐值范围为{{lowerAlignment}}‒{{upperAlignment}}°。\n\n必须连接左右两个鞋垫才能查看此指标值。"
+      },
+      "temperature": {
+        "name": "温度",
+        "description": "脚部的平均环境温度，以{{temperatureTypeName}}度（{{temperatureTypeSymbol}}）衡量。\n\n典型的温度值范围为{{lowerTemp}}‒{{upperTemp}}{{temperatureTypeSymbol}}。"
+      },
+      "healthInsights": {
+        "name": "健康见解"
+      }
+    },
+    "insoles": {
+      "title": "鞋垫"
+    }
+  },
+  "health": {
+    "tabLabel": "健康",
+    "title": "健康",
+    "overview": {
+      "title": "概览",
+      "oneInsight": "见解",
+      "multipleInsights": "见解",
+      "notice": {
+        "title": "提示",
+        "description": "所有健康见解都是根据过去{{threshold}}天的鞋垫数据生成的。"
+      }
+    },
+    "insights": {
+      "title": "见解",
+      "noInsights": "无健康见解"
+    },
+    "severity": {
+      "neutral": "中性",
+      "mild": "轻度",
+      "severe": "严重"
+    }
+  },
+  "history": {
+    "tabLabel": "历史",
+    "title": "历史",
+    "dateNavigator": {
+      "notice": {
+        "title": "提示",
+        "description": "所有数据都以UTC（协调世界时）记录和显示。"
+      }
+    },
+    "data": {
+      "noData": "无可用数据"
+    }
+  },
+  "profile": {
+    "tabLabel": "个人资料",
+    "title": "我的个人资料",
+    "user": {
+      "member": "FeetBack会员",
+      "registeredAt": "自"
+    },
+    "functions": {
+      "theme": {
+        "name": "主题",
+        "light": "浅色",
+        "dark": "深色",
+        "system": "系统"
+      },
+      "accountInfo": "账户信息",
+      "manageInsoles": "管理鞋垫",
+      "logOut": "退出登录"
+    },
+    "greetings": {
+      "morning": "早上好",
+      "afternoon": "下午好",
+      "evening": "晚上好"
+    },
+    "notification": {
+      "title": "电量低",
+      "message": "{{insoleName}} 电量低。请关闭并为鞋垫充电。",
+      "permissionTitle": "通知已禁用",
+      "permissionMessage": "通知已禁用。请在设备设置中启用通知。",
+      "scheduledTitle": "通知已安排",
+      "scheduledMessage": "通知已安排。"
+    }
+  }
+}
+

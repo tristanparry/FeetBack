@@ -1,0 +1,199 @@
+{
+  "common": {
+    "title": "FeetBack",
+    "temperature": {
+      "celsius": {
+        "name": "Celsius",
+        "symbol": "°C"
+      },
+      "fahrenheit": {
+        "name": "Fahrenheit",
+        "symbol": "°F"
+      }
+    },
+    "ok": "OK",
+    "cancel": "Cancelar",
+    "yes": "Sí",
+    "no": "No",
+    "back": "Atrás",
+    "noItems": "Nada que Mostrar",
+    "leftInsole": "Plantilla izquierda",
+    "rightInsole": "Plantilla derecha"
+  },
+  "login": {
+    "title": "Iniciar sesión",
+    "emailPlaceholder": "Correo electrónico",
+    "passwordPlaceholder": "Contraseña",
+    "noAccount": "¿No tienes una cuenta?",
+    "registerButton": "Registrarse",
+    "loginButton": "Iniciar sesión",
+    "validation": {
+      "emailRequired": "El correo electrónico es obligatorio.",
+      "emailValid": "Por favor, introduce una dirección de correo electrónico válida.",
+      "passwordRequired": "La contraseña es obligatoria.",
+      "passwordTooShort": "La contraseña debe tener al menos 8 caracteres.",
+      "passwordTooLong": "La contraseña es demasiado larga.",
+      "REQUIRED": "Correo electrónico y contraseña obligatorios.",
+      "INVALID": "Correo electrónico o contraseña no válidos.",
+      "UNKNOWN": "Se produjo un error desconocido."
+    }
+  },
+  "register": {
+    "title": "Registrarse",
+    "emailPlaceholder": "Correo electrónico",
+    "passwordPlaceholder": "Contraseña",
+    "existingAccount": "¿Ya tienes una cuenta?",
+    "loginButton": "Iniciar sesión",
+    "registerButton": "Registrarse",
+    "validation": {
+      "emailRequired": "El correo electrónico es obligatorio.",
+      "emailValid": "Por favor, introduce una dirección de correo electrónico válida.",
+      "passwordRequired": "La contraseña es obligatoria.",
+      "passwordTooShort": "La contraseña debe tener al menos 8 caracteres.",
+      "passwordTooLong": "La contraseña es demasiado larga.",
+      "EXISTS": "Usuario ya registrado.",
+      "REQUIRED": "Correo electrónico y contraseña obligatorios.",
+      "INVALID": "Correo electrónico o contraseña no válidos.",
+      "UNKNOWN": "Se produjo un error desconocido."
+    }
+  },
+  "accountInfo": {
+    "title": "Información de la cuenta",
+    "functions": {
+      "userName": {
+        "title": "Nombre"
+      },
+      "userPassword": {
+        "title": "Contraseña"
+      },
+      "language": {
+        "title": "Idioma"
+      },
+      "temperature": {
+        "title": "Unidad de temperatura"
+      },
+      "logOut": {
+        "title": "Cerrar sesión"
+      },
+      "deleteAccount": {
+        "title": "Eliminar cuenta",
+        "description": "¿Estás seguro de que quieres eliminar tu cuenta?"
+      }
+    }
+  },
+  "manageInsoles": {
+    "title": "Administrar plantillas",
+    "noDevices": "No hay plantillas emparejadas",
+    "connectionStatus": {
+      "continuous": "Conexión continua",
+      "intermittent": "Conexión intermitente",
+      "none": "Sin conexión"
+    },
+    "chargeDevice": "Carga el dispositivo lo antes posible.",
+    "L": "Plantilla izquierda de {{userName}}",
+    "R": "Plantilla derecha de {{userName}}",
+    "functions": {
+      "pairInsole": {
+        "title": "Emparejar plantilla",
+        "description": "Para emparejar una nueva plantilla, visita la pestaña de inicio, haz clic en el botón de conexión en la esquina superior derecha y enciende tu dispositivo FeetBack."
+      },
+      "unpairInsole": {
+        "title": "Desemparejar plantilla",
+        "description": "¿Estás seguro de que quieres desemparejar {{insoleName}}?"
+      }
+    }
+  },
+  "home": {
+    "tabLabel": "Inicio",
+    "title": "FeetBack",
+    "metrics": {
+      "title": "Métricas en vivo",
+      "pressure": {
+        "name": "Presión",
+        "description": "Distribución promedio de presión en los pies, medida como un porcentaje relativo de la capacidad del sensor (%). Un valor de presión bajo indica que el usuario puede no estar de pie, mientras que un valor de presión alto indica que el usuario puede estar realizando una actividad de carga intensa, como correr o saltar.\n\nLos valores típicos de presión oscilan entre {{lowerPressure}}‒{{upperPressure}}%."
+      },
+      "alignment": {
+        "name": "Alineación",
+        "description": "Alineación angular de los pies, medida por su diferencia en grados (°). Un valor de alineación de 0° indica que los pies del usuario están orientados exactamente en la misma dirección.\n\nLos valores típicos de alineación oscilan entre {{lowerAlignment}}‒{{upperAlignment}}°.\n\nAmbas plantillas, izquierda y derecha, deben estar conectadas para ver este valor métrico."
+      },
+      "temperature": {
+        "name": "Temperatura",
+        "description": "Temperatura ambiente promedio de los pies, medida en grados {{temperatureTypeName}} ({{temperatureTypeSymbol}}).\n\nLos valores típicos de temperatura oscilan entre {{lowerTemp}}‒{{upperTemp}}{{temperatureTypeSymbol}}."
+      },
+      "healthInsights": {
+        "name": "Información de salud"
+      }
+    },
+    "insoles": {
+      "title": "Plantillas"
+    }
+  },
+  "health": {
+    "tabLabel": "Salud",
+    "title": "Salud",
+    "overview": {
+      "title": "Resumen",
+      "oneInsight": "Información",
+      "multipleInsights": "Informaciones",
+      "notice": {
+        "title": "Aviso",
+        "description": "Toda la información de salud se genera de acuerdo con los datos de las plantillas de los últimos {{threshold}} días."
+      }
+    },
+    "insights": {
+      "title": "Informaciones",
+      "noInsights": "Sin información de salud"
+    },
+    "severity": {
+      "neutral": "Neutral",
+      "mild": "Leve",
+      "severe": "Grave"
+    }
+  },
+  "history": {
+    "tabLabel": "Historial",
+    "title": "Historial",
+    "dateNavigator": {
+      "notice": {
+        "title": "Aviso",
+        "description": "Todos los datos se registran y se muestran en UTC (Tiempo Universal Coordinado)."
+      }
+    },
+    "data": {
+      "noData": "No hay datos disponibles"
+    }
+  },
+  "profile": {
+    "tabLabel": "Perfil",
+    "title": "Mi perfil",
+    "user": {
+      "member": "Miembro de FeetBack",
+      "registeredAt": "desde"
+    },
+    "functions": {
+      "theme": {
+        "name": "Tema",
+        "light": "Claro",
+        "dark": "Oscuro",
+        "system": "Sistema"
+      },
+      "accountInfo": "Información de la cuenta",
+      "manageInsoles": "Administrar plantillas",
+      "logOut": "Cerrar sesión"
+    },
+    "greetings": {
+      "morning": "Buenos días",
+      "afternoon": "Buenas tardes",
+      "evening": "Buenas noches"
+    },
+    "notification": {
+      "title": "Batería baja",
+      "message": "{{insoleName}} tiene batería baja. Por favor apague y cargue la plantilla.",
+      "permissionTitle": "Notificaciones desactivadas",
+      "permissionMessage": "Las notificaciones están desactivadas. Habilítelas en la configuración del dispositivo.",
+      "scheduledTitle": "Notificación programada",
+      "scheduledMessage": "Se ha programado una notificación."
+    }
+  }
+}
+

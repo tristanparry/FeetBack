@@ -1,0 +1,199 @@
+{
+  "common": {
+    "title": "FeetBack",
+    "temperature": {
+      "celsius": {
+        "name": "摂氏",
+        "symbol": "°C"
+      },
+      "fahrenheit": {
+        "name": "華氏",
+        "symbol": "°F"
+      }
+    },
+    "ok": "OK",
+    "cancel": "キャンセル",
+    "yes": "はい",
+    "no": "いいえ",
+    "back": "戻る",
+    "noItems": "表示するものはありません",
+    "leftInsole": "左インソール",
+    "rightInsole": "右インソール"
+  },
+  "login": {
+    "title": "ログイン",
+    "emailPlaceholder": "メールアドレス",
+    "passwordPlaceholder": "パスワード",
+    "noAccount": "アカウントをお持ちではありませんか？",
+    "registerButton": "登録",
+    "loginButton": "ログイン",
+    "validation": {
+      "emailRequired": "メールアドレスは必須です。",
+      "emailValid": "有効なメールアドレスを入力してください。",
+      "passwordRequired": "パスワードは必須です。",
+      "passwordTooShort": "パスワードは8文字以上である必要があります。",
+      "passwordTooLong": "パスワードが長すぎます。",
+      "REQUIRED": "メールアドレスとパスワードは必須です。",
+      "INVALID": "メールアドレスまたはパスワードが無効です。",
+      "UNKNOWN": "不明なエラーが発生しました。"
+    }
+  },
+  "register": {
+    "title": "登録",
+    "emailPlaceholder": "メールアドレス",
+    "passwordPlaceholder": "パスワード",
+    "existingAccount": "すでにアカウントをお持ちですか？",
+    "loginButton": "ログイン",
+    "registerButton": "登録",
+    "validation": {
+      "emailRequired": "メールアドレスは必須です。",
+      "emailValid": "有効なメールアドレスを入力してください。",
+      "passwordRequired": "パスワードは必須です。",
+      "passwordTooShort": "パスワードは8文字以上である必要があります。",
+      "passwordTooLong": "パスワードが長すぎます。",
+      "EXISTS": "ユーザーはすでに登録されています。",
+      "REQUIRED": "メールアドレスとパスワードは必須です。",
+      "INVALID": "メールアドレスまたはパスワードが無効です。",
+      "UNKNOWN": "不明なエラーが発生しました。"
+    }
+  },
+  "accountInfo": {
+    "title": "アカウント情報",
+    "functions": {
+      "userName": {
+        "title": "名前"
+      },
+      "userPassword": {
+        "title": "パスワード"
+      },
+      "language": {
+        "title": "言語"
+      },
+      "temperature": {
+        "title": "温度単位"
+      },
+      "logOut": {
+        "title": "ログアウト"
+      },
+      "deleteAccount": {
+        "title": "アカウント削除",
+        "description": "アカウントを削除してもよろしいですか？"
+      }
+    }
+  },
+  "manageInsoles": {
+    "title": "インソールの管理",
+    "noDevices": "ペアリングされたインソールがありません",
+    "connectionStatus": {
+      "continuous": "継続的な接続",
+      "intermittent": "断続的な接続",
+      "none": "接続なし"
+    },
+    "chargeDevice": "できるだけ早くデバイスを充電してください。",
+    "L": "{{userName}}の左インソール",
+    "R": "{{userName}}の右インソール",
+    "functions": {
+      "pairInsole": {
+        "title": "インソールのペアリング",
+        "description": "新しいインソールをペアリングするには、ホームタブにアクセスし、右上隅の接続ボタンをクリックし、FeetBackデバイスをオンにしてください。"
+      },
+      "unpairInsole": {
+        "title": "インソールのペアリング解除",
+        "description": "{{insoleName}}のペアリングを解除してもよろしいですか？"
+      }
+    }
+  },
+  "home": {
+    "tabLabel": "ホーム",
+    "title": "FeetBack",
+    "metrics": {
+      "title": "ライブメトリクス",
+      "pressure": {
+        "name": "圧力",
+        "description": "足全体の平均圧力分布で、センサー容量に対する相対的なパーセンテージ（％）として測定されます。低い圧力値は、ユーザーが立っていない可能性があることを示し、高い圧力値は、ユーザーがランニングやジャンプなどの激しい負荷活動を行っている可能性があることを示します。\n\n一般的な圧力値は{{lowerPressure}}‒{{upperPressure}}%の範囲です。"
+      },
+      "alignment": {
+        "name": "アライメント",
+        "description": "足の角度アライメントで、度数（°）の差で測定されます。アライメント値が0°の場合、ユーザーの足がまったく同じ方向を向いていることを示します。\n\n一般的なアライメント値は{{lowerAlignment}}‒{{upperAlignment}}°の範囲です。\n\nこのメトリック値を表示するには、左右両方のインソールを接続する必要があります。"
+      },
+      "temperature": {
+        "name": "温度",
+        "description": "足の平均周囲温度で、{{temperatureTypeName}}度（{{temperatureTypeSymbol}}）で測定されます。\n\n一般的な温度値は{{lowerTemp}}‒{{upperTemp}}{{temperatureTypeSymbol}}の範囲です。"
+      },
+      "healthInsights": {
+        "name": "健康インサイト"
+      }
+    },
+    "insoles": {
+      "title": "インソール"
+    }
+  },
+  "health": {
+    "tabLabel": "健康",
+    "title": "健康",
+    "overview": {
+      "title": "概要",
+      "oneInsight": "インサイト",
+      "multipleInsights": "インサイト",
+      "notice": {
+        "title": "注意",
+        "description": "すべての健康インサイトは、過去{{threshold}}日間のインソールデータに基づいて生成されます。"
+      }
+    },
+    "insights": {
+      "title": "インサイト",
+      "noInsights": "健康インサイトがありません"
+    },
+    "severity": {
+      "neutral": "ニュートラル",
+      "mild": "軽度",
+      "severe": "重度"
+    }
+  },
+  "history": {
+    "tabLabel": "履歴",
+    "title": "履歴",
+    "dateNavigator": {
+      "notice": {
+        "title": "注意",
+        "description": "すべてのデータはUTC（協定世界時）で記録および表示されます。"
+      }
+    },
+    "data": {
+      "noData": "利用可能なデータがありません"
+    }
+  },
+  "profile": {
+    "tabLabel": "プロフィール",
+    "title": "マイプロフィール",
+    "user": {
+      "member": "FeetBackメンバー",
+      "registeredAt": "登録日"
+    },
+    "functions": {
+      "theme": {
+        "name": "テーマ",
+        "light": "ライト",
+        "dark": "ダーク",
+        "system": "システム"
+      },
+      "accountInfo": "アカウント情報",
+      "manageInsoles": "インソールの管理",
+      "logOut": "ログアウト"
+    },
+    "greetings": {
+      "morning": "おはようございます",
+      "afternoon": "こんにちは",
+      "evening": "こんばんは"
+    },
+    "notification": {
+      "title": "バッテリー残量が少ない",
+      "message": "{{insoleName}}のバッテリー残量が少なくなっています。電源を切って充電してください。",
+      "permissionTitle": "通知が無効です",
+      "permissionMessage": "通知が無効になっています。端末の設定で通知を有効にしてください。",
+      "scheduledTitle": "通知を予定しました",
+      "scheduledMessage": "通知が予定されました。"
+    }
+  }
+}
+

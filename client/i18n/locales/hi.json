@@ -1,0 +1,197 @@
+{
+  "common": {
+    "title": "FeetBack",
+    "temperature": {
+      "celsius": {
+        "name": "सेल्सियस",
+        "symbol": "°C"
+      },
+      "fahrenheit": {
+        "name": "फ़ारेनहाइट",
+        "symbol": "°F"
+      }
+    },
+    "ok": "ठीक है",
+    "cancel": "रद्द करें",
+    "yes": "हाँ",
+    "no": "नहीं",
+    "back": "वापस",
+    "noItems": "प्रदर्शित करने के लिए कुछ नहीं",
+    "leftInsole": "बायाँ इनसोल",
+    "rightInsole": "दायाँ इनसोल"
+  },
+  "login": {
+    "title": "लॉग इन करें",
+    "emailPlaceholder": "ईमेल",
+    "passwordPlaceholder": "पासवर्ड",
+    "noAccount": "खाता नहीं है?",
+    "registerButton": "रजिस्टर करें",
+    "loginButton": "लॉग इन करें",
+    "validation": {
+      "emailRequired": "ईमेल आवश्यक है।",
+      "emailValid": "कृपया एक मान्य ईमेल पता दर्ज करें।",
+      "passwordRequired": "पासवर्ड आवश्यक है।",
+      "passwordTooShort": "पासवर्ड कम से कम 8 वर्णों का होना चाहिए।",
+      "passwordTooLong": "पासवर्ड बहुत लंबा है।",
+      "REQUIRED": "ईमेल और पासवर्ड आवश्यक हैं।",
+      "INVALID": "अमान्य ईमेल या पासवर्ड।",
+      "UNKNOWN": "एक अज्ञात त्रुटि हुई।"
+    }
+  },
+  "register": {
+    "title": "रजिस्टर करें",
+    "emailPlaceholder": "ईमेल",
+    "passwordPlaceholder": "पासवर्ड",
+    "existingAccount": "पहले से ही खाता है?",
+    "loginButton": "लॉग इन करें",
+    "registerButton": "रजिस्टर करें",
+    "validation": {
+      "emailRequired": "ईमेल आवश्यक है।",
+      "emailValid": "कृपया एक मान्य ईमेल पता दर्ज करें।",
+      "passwordRequired": "पासवर्ड आवश्यक है।",
+      "passwordTooShort": "पासवर्ड कम से कम 8 वर्णों का होना चाहिए।",
+      "passwordTooLong": "पासवर्ड बहुत लंबा है।",
+      "EXISTS": "उपयोगकर्ता पहले से पंजीकृत है।",
+      "REQUIRED": "ईमेल और पासवर्ड आवश्यक हैं।",
+      "INVALID": "अमान्य ईमेल या पासवर्ड।",
+      "UNKNOWN": "एक अज्ञात त्रुटि हुई।"
+    }
+  },
+  "accountInfo": {
+    "title": "खाता जानकारी",
+    "functions": {
+      "userName": {
+        "title": "नाम"
+      },
+      "userPassword": {
+        "title": "पासवर्ड"
+      },
+      "language": {
+        "title": "भाषा"
+      },
+      "temperature": {
+        "title": "तापमान इकाई"
+      },
+      "logOut": {
+        "title": "लॉग आउट करें"
+      },
+      "deleteAccount": {
+        "title": "खाता हटाएं",
+        "description": "क्या आप वाकई अपना खाता हटाना चाहते हैं?"
+      }
+    }
+  },
+  "manageInsoles": {
+    "title": "इनसोल प्रबंधित करें",
+    "noDevices": "कोई इनसोल युग्मित नहीं",
+    "connectionStatus": {
+      "continuous": "निरंतर कनेक्शन",
+      "intermittent": "रुक-रुक कर कनेक्शन",
+      "none": "कोई कनेक्शन नहीं"
+    },
+    "chargeDevice": "जल्द से जल्द डिवाइस चार्ज करें।",
+    "L": "{{userName}} का बायां इनसोल",
+    "R": "{{userName}} का दायां इनसोल",
+    "functions": {
+      "pairInsole": {
+        "title": "इनसोल युग्मित करें",
+        "description": "एक नया इनसोल युग्मित करने के लिए, होम टैब पर जाएं, ऊपरी दाएं कोने में कनेक्शन बटन पर क्लिक करें, और अपने FeetBack डिवाइस को चालू करें।"
+      },
+      "unpairInsole": {
+        "title": "इनसोल युग्मन रद्द करें",
+        "description": "क्या आप वाकई {{insoleName}} का युग्मन रद्द करना चाहते हैं?"
+      }
+    }
+  },
+  "home": {
+    "tabLabel": "होम",
+    "title": "FeetBack",
+    "metrics": {
+      "title": "लाइव मेट्रिक्स",
+      "pressure": {
+        "name": "दबाव",
+        "description": "पैरों पर औसत दबाव वितरण, सेंसर क्षमता के सापेक्ष प्रतिशत (%) के रूप में मापा जाता है। कम दबाव मूल्य इंगित करता है कि उपयोगकर्ता खड़ा नहीं हो सकता है, जबकि उच्च दबाव मूल्य इंगित करता है कि उपयोगकर्ता दौड़ना या कूदना जैसी कठोर भार-वहन गतिविधि कर रहा हो सकता है।\n\nविशिष्ट दबाव मूल्य {{lowerPressure}}‒{{upperPressure}}% की सीमा में होते हैं।"
+      },
+      "alignment": {
+        "name": "संरेखण",
+        "description": "पैरों का कोणीय संरेखण, डिग्री (°) में उनके अंतर से मापा जाता है। 0° का संरेखण मूल्य इंगित करता है कि उपयोगकर्ता के पैर बिल्कुल एक ही दिशा में हैं।\n\nविशिष्ट संरेखण मूल्य {{lowerAlignment}}‒{{upperAlignment}}° की सीमा में होते हैं।\n\nइस मेट्रिक मूल्य को देखने के लिए बाएं और दाएं दोनों इनसोल को कनेक्ट होना चाहिए।"
+      },
+      "temperature": {
+        "name": "तापमान",
+        "description": "पैरों का औसत परिवेश तापमान, {{temperatureTypeName}} डिग्री ({{temperatureTypeSymbol}}) में मापा जाता है।\n\nविशिष्ट तापमान मूल्य {{lowerTemp}}‒{{upperTemp}}{{temperatureTypeSymbol}} की सीमा में होते हैं।"
+      },
+      "healthInsights": {
+        "name": "स्वास्थ्य अंतर्दृष्टि"
+      }
+    },
+    "insoles": {
+      "title": "इनसोल"
+    }
+  },
+  "health": {
+    "tabLabel": "स्वास्थ्य",
+    "title": "स्वास्थ्य",
+    "overview": {
+      "title": "अवलोकन",
+      "oneInsight": "अंतर्दृष्टि",
+      "multipleInsights": "अंतर्दृष्टि",
+      "notice": {
+        "title": "सूचना",
+        "description": "सभी स्वास्थ्य अंतर्दृष्टि पिछले {{threshold}} दिनों के इनसोल डेटा के अनुसार उत्पन्न की जाती हैं।"
+      }
+    },
+    "insights": {
+      "title": "अंतर्दृष्टि",
+      "noInsights": "कोई स्वास्थ्य अंतर्दृष्टि नहीं"
+    },
+    "severity": {
+      "neutral": "तटस्थ",
+      "mild": "हल्का",
+      "severe": "गंभीर"
+    }
+  },
+  "history": {
+    "tabLabel": "इतिहास",
+    "title": "इतिहास",
+    "dateNavigator": {
+      "notice": {
+        "title": "सूचना",
+        "description": "सभी डेटा UTC (समन्वित सार्वभौमिक समय) में रिकॉर्ड और प्रदर्शित किए जाते हैं।"
+      }
+    },
+    "data": {
+      "noData": "कोई डेटा उपलब्ध नहीं"
+    }
+  },
+  "profile": {
+    "tabLabel": "प्रोफ़ाइल",
+    "title": "मेरी प्रोफ़ाइल",
+    "user": {
+      "member": "FeetBack सदस्य",
+      "registeredAt": "से"
+    },
+    "functions": {
+      "theme": {
+        "name": "थीम",
+        "light": "लाइट",
+        "dark": "डार्क",
+        "system": "सिस्टम"
+      },
+      "accountInfo": "खाता जानकारी",
+      "manageInsoles": "इनसोल प्रबंधित करें",
+      "logOut": "लॉग आउट करें"
+    },
+    "greetings": {
+      "morning": "सुप्रभात",
+      "afternoon": "शुभ दोपहर",
+      "evening": "शुभ संध्या"    },
+    "notification": {
+      "title": "बैटरी कम",
+      "message": "{{insoleName}} की बैटरी कम है। कृपया इनसोल बंद करें और चार्ज करें।",
+      "permissionTitle": "सूचनाएँ अक्षम हैं",
+      "permissionMessage": "सूचनाएँ अक्षम हैं। कृपया अपने डिवाइस की सेटिंग्स में सूचनाएँ सक्षम करें।",
+      "scheduledTitle": "सूचना अनुसूचित",
+      "scheduledMessage": "एक सूचना अनुसूचित कर दी गई है।"    }
+  }
+}
+
