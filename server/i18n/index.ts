@@ -1,4 +1,4 @@
-import i18n from 'i18next';
+import i18n from '../node_modules/i18next/index.js';
 import { DEFAULT_LANGUAGE, LANGUAGE_RESOURCES } from './types.ts';
 
 const initI18n = async () => {
