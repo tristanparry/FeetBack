@@ -35,3 +35,8 @@ Each year, 8,000,000 Canadians suffer from foot-related health issues, exacerbat
 ## Demo Video
 
 https://github.com/user-attachments/assets/1d37fa95-7c9e-4c1d-bc27-910bf3c9a07f
+
+
+## Appendix
+
+FeetBack was awarded the Capstone Design Project Prototype Excellence Award by the Department of Electrical and Computer Engineering at the University of Waterloo, in recognition of outstanding ability to transform innovative ideas into a refined and fully functional prototype.
